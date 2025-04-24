@@ -13,7 +13,7 @@
   --purple: #170230; 
   --purple-dark: #330066;
   --purple-vibrant: #663399;
-  --liner-gradient: linear-gradient(90deg,rgba(23, 2, 48, 0.99) 40%, rgba(51, 0, 102, 1) 70%, rgba(102, 51, 153, 1) 100%);
+  --liner-gradient:  linear-gradient(to top, #170230, #330066, #663399);
 
   --ff-sans: "Inter", system-ui, sans-serif;
   --fw-base: 400;
