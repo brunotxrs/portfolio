@@ -11,13 +11,13 @@ export function CertificadosProvider({ children }) {
         "HTML": [
             {
                 titulo: "Introdução ao HTML na Prática",
-                descricao: "Curso introdutório sobre HTML.",
+                descricao: "Curso introdutório sobre HTML. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
                 certificadoUrl: "https://assets.dio.me/FQrv_wMczFFJ78h7JpGv5xhM3yo2or6I0sboeJb_sg8/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9YVFAwQ0dESi5qcGc"
             },
             {
                 titulo: "Trabalhando com Formulários em HTML",
-                descricao: "Curso sobre formulários em HTML.",
-                certificadoUrl: "link_para_certificado_html_2.pdf"
+                descricao: "Curso sobre formulários em HTML. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/5TptDYttb0_RTVUfQwaNfRpns3umm_tubr74FgOm9wE/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9FQ0RQSkI3Vy5qcGc"
             },
             {
                 titulo: "Trabalhando com Formulários em HTML",
