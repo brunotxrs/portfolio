@@ -1,0 +1,190 @@
+.container-skills {
+    background: var(--black);
+    width: 100%;
+    height: 25rem;
+    padding: 1.25rem;
+    color: var(--white);
+
+    position: relative;
+
+    h2 {
+        font-family: var(--ff-sans);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-2xl);
+        background-image: linear-gradient(to right, #663399, #F4F4F5); 
+        background-clip: text; 
+        color: transparent; 
+        filter: drop-shadow(0px 0px 1px var(--black));
+    }
+
+    P {
+        
+        text-indent: 0.3125rem;
+        font-family: var(--ff-sans);
+        font-size: var(--fs-base);
+        font-weight: var(--fw-bold);
+        padding: 10px 0;
+    }
+
+    .skills {
+        height: 3.125rem;
+        padding: 0 0.625rem;
+
+        ul {
+            height: 100%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+
+            li {
+                height: 100%;
+                width: 2.5rem;
+                position: relative;
+
+                span:nth-child(1) {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .html, .css, .js, .react, .git, .github, .npm {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    .html {
+                        color: #ff4500;
+                    }
+
+                    .css {
+                        color: #1572B6;
+                    }
+
+                    .js {
+                        color: #F7DF1E;
+                    }
+
+                    .react {
+                        color: #61DAFB;
+                    }
+
+                    .git {
+                        color: #F05032;
+                    }
+
+                    .github {
+                        color: #333333;
+                    }
+
+                    .npm {
+                        color: #CB3837;
+                    }
+
+                    .figma {
+                        width: 90%;
+                        height: 80%;
+                        color: #A259FF;
+                    }
+
+                }
+
+                
+                
+            }
+        }
+    }
+
+    .overlay {
+        background: var(--black);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25rem;
+        padding: 1.25rem;
+
+
+        .certificados-lista {
+
+            h3 {
+
+                font-family: var(--ff-sans);
+                font-weight: var(--fw-bold);
+                font-size: var(--fs-2xl);
+                background-image: linear-gradient(to right, #663399, #F4F4F5); 
+                background-clip: text; 
+                color: transparent; 
+                filter: drop-shadow(0px 0px 1px var(--black)); 
+                padding-bottom: 20px;
+            }
+
+            ul {
+                height: 100%;
+
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: space-evenly;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    font-family: var(--ff-sans);
+                    font-size: var(--fs-base);
+                    font-weight: var(--fw-md);
+                    letter-spacing: 0.3px;
+                    padding: 0 5px ;
+                    cursor: pointer;
+
+                    span {
+                        padding: 2px 0;
+                    }
+
+                }
+            }
+
+            .btn {
+
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background: var(--purple-dark);
+                    border: none;
+                    color: var(--white);
+                    
+                }
+            }
+
+            
+        }
+        
+    }
+
+    .certificado-detalhe {
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        margin: auto;
+    }
+    
+    .certificado-detalhe button {
+        position: absolute;
+        top: 0px;
+        left: calc(100vw - 30px);
+    }
+}
+
