@@ -36,7 +36,8 @@ function Skills() {
                     <p>Front-End:</p>
                     <ul>
                         <li onClick={() => exibirCertificados("HTML")}><span title="HTML5" aria-label="HTML5"><FontAwesomeIcon className="html" icon={faHtml5} /></span></li>
-                        <li><span><FontAwesomeIcon className="css" icon={faCss3Alt} /></span></li>
+
+                        <li onClick={() => exibirCertificados("CSS")}><span title="CSS3" aria-label="CSS3"><FontAwesomeIcon className="css" icon={faCss3Alt} /></span></li>
                         <li><span><FontAwesomeIcon className="js" icon={faJs} /></span></li>
                         <li><span><FontAwesomeIcon className="react" icon={faReact} /></span></li>
                     </ul>

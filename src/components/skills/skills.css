@@ -114,7 +114,6 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
         padding: 1.25rem;
 
 
@@ -212,7 +211,7 @@
             text-align: justify;
             align-items: end;
             width: 90%;
-            height: 60%;
+            height: 85%;
             font-family: var(--ff-sans);
             line-height: 1.2em;
             letter-spacing: 0.5px;
