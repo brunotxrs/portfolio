@@ -1,11 +1,11 @@
 import React from "react";
 import './header.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faGithubAlt, faLinkedin, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 
 
-function Header({onAboutMeClick, onProjectClick}) {
+function Header({ onProjectClick, onSkillsClick }) {
   
     return (
         <div>
@@ -13,10 +13,9 @@ function Header({onAboutMeClick, onProjectClick}) {
 
                 <div className="navigation">
                     <ul>
-                        <li onClick={onAboutMeClick}>Sobre Mim</li>
-                        <li onClick={onProjectClick}>Projetos</li>
-                        <li>Skills</li>
-                        <li>Contato</li>
+                        <li onClick={onProjectClick}><span>Projetos</span></li>
+
+                        <li onClick={onSkillsClick}><span>Skills</span></li>
                     </ul>
                 </div>
 
@@ -41,7 +40,7 @@ function Header({onAboutMeClick, onProjectClick}) {
                         </a></li>
                         <li><a href="https://www.linkedin.com/in/brunotxrs/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedinIn} /></a></li>
                         
-                        <li></li>
+                        <li><a href=""><FontAwesomeIcon className="instagram" icon={faInstagram} /></a></li>
                     </ul>
                 </div>
 
