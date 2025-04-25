@@ -2,56 +2,12 @@
     width: 100%;
     height: 100vh;
     background: var(--liner-gradient);
-    padding: 0.625rem;
+    padding: 0.625rem ;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     border-bottom: 1px solid var(--purple);
-
-    .navigation {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-
-        ul {
-
-            width: 70%;
-            height: 1.875rem;
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-
-
-            li {
-                height: 100%;
-                display: flex;
-                align-items: center;
-  
-                span {
-                    color: var(--white);
-                    font-family: var(--ff-sans);
-                    font-size: var(--fs-sm);
-                    font-weight: var(--fw-bold);
-                    text-transform: uppercase;
-                    cursor: pointer;
-                }
-
-                span:hover {
-                    filter: drop-shadow(0 0 2px var(--black)) ;
-                }
-                
-            }
-
-            li:hover {   
-                color: var(--white);
-                font-size: 2em; 
-                text-decoration: underline;
-            }
-        }
-    }
 
     .box-header {
         display: flex;
@@ -111,7 +67,7 @@
         .img {
             height: 6.25rem;
             width: 6.25rem;
-            border-radius: 10px;
+            border-radius: 0.625rem;
             position: absolute;
             left: calc(100vw - 8.5rem);
             top: 2.7rem;
@@ -135,8 +91,12 @@
     }
 
     .about {
+        display: flex;
+        align-items: center;
+        
         padding: 0 0.625rem;
         width: 100%;
+        height: 6.25rem;
         font-weight: 500;
         line-height: 115%;
         font-family: var(--ff-sans);
@@ -215,6 +175,57 @@
                 
             }
 
+        }
+    }
+
+    .navigation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+
+        ul {
+
+            width: 70%;
+            height: 1.875rem;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            li {
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                outline: 1px solid var(--purple-vibrant);
+  
+                padding: 0.3125rem 0.625rem;
+                border-radius: 624.9375rem;
+                background: var(--liner-gradient);
+
+                span {
+                    color: var(--white);
+                    font-family: var(--ff-sans);
+                    font-size: var(--fs-sm);
+                    font-weight: var(--fw-bold);
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+
+                span:hover {
+                    filter: drop-shadow(0 0 2px var(--black)) ;
+                }
+                
+            }
+
+            li:active {
+                transform: translateY(2px);
+            }
+
+            
         }
     }
 

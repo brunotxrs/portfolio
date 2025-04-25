@@ -11,14 +11,6 @@ function Header({ onProjectClick, onSkillsClick }) {
         <div>
             <div className="container-header">
 
-                <div className="navigation">
-                    <ul>
-                        <li onClick={onProjectClick}><span>Projetos</span></li>
-
-                        <li onClick={onSkillsClick}><span>Skills</span></li>
-                    </ul>
-                </div>
-
                 <div className="box-header">
                     <div className="titulo">
                         <h1><span>Eu sou</span> Bruno Teixeira</h1>
@@ -31,7 +23,7 @@ function Header({ onProjectClick, onSkillsClick }) {
 
                 <div className="about">
                     <p>Desenvolvedor Front-End com paixão por transformar ideias em experiências web impactantes.</p>
-                </div>
+                </div>  
 
                 <div className="link-social">
                     <ul>
@@ -44,7 +36,13 @@ function Header({ onProjectClick, onSkillsClick }) {
                     </ul>
                 </div>
 
-                
+                <div className="navigation">
+                    <ul>
+                        <li onClick={onProjectClick}><span>Projetos</span></li>
+
+                        <li onClick={onSkillsClick}><span>Skills</span></li>
+                    </ul>
+                </div>
 
             </div>
 
