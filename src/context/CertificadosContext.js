@@ -138,36 +138,84 @@ export function CertificadosProvider({ children }) {
         "JavaScript": [
             {
                 titulo: "Primeiros Passos Com JavaScript",
-                descricao: "Curso introdutório sobre JavaScript.",
-                certificadoUrl: "link_para_certificado_js_1.pdf"
+                descricao: "Curso introdutório sobre JavaScript. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/clieXtAeeH3dlDS2sOnJY2S9PgiFv-ZeNVcp6G0N9lc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9TVDdZTUVOQy5qcGc"
             },
             {
                 titulo: "Conhecendo Funções JavaScript",
-                descricao: "Curso sobre funções em JavaScript.",
-                certificadoUrl: "link_para_certificado_js_2.pdf"
+                descricao: "Curso focado no aprendizado e aplicação de funções em JavaScript. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/UjZilm0eVlBclIqNrWvS5X5nSZ3oVtxi2rdZfArLs2w/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9DSjFHTFhNWi5qcGc"
+            },
+            {
+                titulo: "Criando um Jogo do Detona Ralph com JavaScript",
+                descricao: "Curso prático de desenvolvimento de um jogo utilizando JavaScript. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/FtTVBMpU2YIzzgdduQp9A_Gl38v7b1s14pf7lYNYD6U/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9UMk5RVldCMi5qcGc"
+            }, 
+            {
+                titulo: "Criando um Jogo da memória com Emojis Utilizando Javascript",
+                descricao: "Curso prático de desenvolvimento de um jogo da memória com JavaScript. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
             }
             // ... mais certificados de JavaScript
         ],
         "React": [
             {
-                titulo: "NLW Pocket: Mobile - React Native",
-                descricao: "Curso sobre desenvolvimento mobile em React Native.",
-                certificadoUrl: "link_para_certificado_react_1.pdf"
+                titulo: "React.js (Desenvolvimento Front-End)",
+                descricao: "Experiência prática em React.js para criar interfaces de usuário dinâmicas e interativas, utilizando componentes, estados e propriedades.",
+                certificadoUrl: "https://th.bing.com/th/id/OIP.uf5Wr4c5nlbGbTR0XyGUvQHaEO?rs=1&pid=ImgDetMain"
             }
             // ... mais certificados de React
         ],
         "Git": [
             {
                 titulo: "O básico de Git e GitHub",
-                descricao: "Curso sobre o básico de Git e GitHub.",
-                certificadoUrl: "link_para_certificado_git_1.pdf"
+                descricao: "Curso introdutório aos conceitos e comandos básicos do Git e GitHub",
+                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFXIdtfqJuuTQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1734091214190?e=1746223200&v=beta&t=76osa5z-RiauFVN5p8ML8PoOBNoMtroSi6d8B0v2CIc"
             },
             {
                 titulo: "Versionamento de Código com Git e GitHub",
-                descricao: "Curso sobre versionamento de código com Git e GitHub.",
-                certificadoUrl: "link_para_certificado_git_2.pdf"
+                descricao: "Curso sobre o uso do Git para controle de versão e GitHub para colaboração. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/u7_6TloBEsuQEnq4tXv7LP4_jRb-gYEx97063mK_6Tg/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9ES1BKT0hPRy5qcGc"
+            },
+            {
+                titulo: "Princípios de Desenvolvimento de Software Colaborativo",
+                descricao: "Curso sobre as práticas e princípios para desenvolvimento colaborativo de software. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/FHmIg8n11-ccaoI_u5s9ErY5mN8mmHo7R85smBgDiTI/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9HQlVPVVZWQy5qcGc"
+            },
+            {
+                titulo: "Contribuindo em um Projeto Open Source no GitHub",
+                descricao: "Curso prático sobre como contribuir em projetos de código aberto no GitHub. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/Ti3SiDycOUZLxQeeke_a7L-jJYDmvE5k5wAQVyzpJZ0/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9YTjFYRlpDSy5qcGc"
             }
             
+        ],
+        "Github":[
+            {
+                titulo: "Lógica de programação: mergulhe em programação com JavaScript",
+                descricao: "Curso introdutório à lógica de programação utilizando a linguagem JavaScript como ferramenta prática.",
+                certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
+            }
+        ],
+        "Npm":[
+            {
+                titulo: "NPM (Node Package Manager)",
+                descricao: "Experiência prática em NPM para gerenciar dependências em projetos React (instalação, atualização, remoção) e compreensão do package.json.",
+                certificadoUrl: "https://th.bing.com/th/id/OIP.H2rmEzRgHE7N2HeLUCeUjAHaEB?w=970&h=526&rs=1&pid=ImgDetMain"
+            }
+        ],
+        "Figma":[
+            {
+                titulo: "Figma (Para Desenvolvimento Front-End)",
+                descricao: "Experiência prática em Figma para extrair medidas, cores, tipografia e especificações de design para implementação precisa em código front-end (HTML/CSS).",
+                certificadoUrl: "https://th.bing.com/th/id/R.d9f66b70e5f47918c52eb009a0a9d00a?rik=YYUwgIaQv0xF0w&pid=ImgRaw&r=0"
+            }
+        ],
+        "Logic":[
+            {
+                titulo: "Lógica de programação: mergulhe em programação com JavaScript",
+                descricao: "Curso introdutório à lógica de programação utilizando a linguagem JavaScript como ferramenta prática.",
+                certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
+            }
         ],
         
     });
