@@ -1,22 +1,21 @@
 import { useRef } from 'react';
 import './App.css';
-import AboutMe from './components/about-me/about-me';
 import Header from './components/header/header';
+import Skills from './components/skills/skills';
 
 function App() {
-  const aboutMeRef = useRef(null);
+  const skillsRef = useRef(null);
 
 
-
-  const scrollToAboutMe = () => {
-    aboutMeRef.current?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSkills = () => {
+    skillsRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div>
-      <Header onAboutMeClick={scrollToAboutMe}/>
-      <div ref={aboutMeRef}>
-        <AboutMe />
+      <Header onSkillsClick={scrollToSkills}/>
+      <div ref={skillsRef}>
+        <Skills />
       </div>
 
     
