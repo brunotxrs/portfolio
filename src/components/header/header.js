@@ -40,7 +40,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                     <ul>
                         <li onClick={onProjectClick}><span>Projetos</span></li>
 
-                        <li onClick={onSkillsClick}><span>Ferramentas</span></li>
+                        <li onClick={onSkillsClick}><span>habilidades</span></li>
                     </ul>
                 </div>
 
