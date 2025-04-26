@@ -79,28 +79,33 @@ function Skills() {
                                     </li>
                                 ))}
                             </ul>
+
                             <div className="btn"><button onClick={fecharCertificados}><FontAwesomeIcon icon={faXmark} /></button></div>
+
                         </div>
                     </div>
                 )}
 
                 {exibirCertificadoDetalhe && urlCertificadoDetalhe && (
-                    <div
-                        className="certificado-detalhe"
-                        style={{ backgroundImage: `url(${urlCertificadoDetalhe})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-                    >
 
-                        <div className="box-btn"><span  className="button" onClick={handleFecharCertificadoDetalhe}><FontAwesomeIcon icon={faEye} /></span></div>
+                    <div className="box-details-certificate">
+                        
+                        <div className="box-btn">
+                            <span className="button" onClick={handleFecharCertificadoDetalhe}>
+                                <FontAwesomeIcon icon={faEye} />
+                            </span>
+                        </div>
+                        
+                        <div className="certificado-detalhe"
+                            style={{ backgroundImage: `url(${urlCertificadoDetalhe})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height:'50%' }}>
+                        </div>
 
                         <span className="description">
                             {certificadosExibidos &&
-                             certificadosExibidos.find(cert => cert.certificadoUrl === urlCertificadoDetalhe)?.descricao
+                                certificadosExibidos.find(cert => cert.certificadoUrl === urlCertificadoDetalhe)?.descricao
                             }
                         </span>
 
-                       
-                        
-                        {/* <button onClick={handleFecharCertificadoDetalhe}><FontAwesomeIcon icon={faEye} /></button> */}
                     </div>
                 )}
             </div>
