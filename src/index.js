@@ -4,14 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { CertificadosProvider } from './context/CertificadosContext';
+import { ProjectProvider } from './context/ProjectContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <CertificadosProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+
+  <ProjectProvider>
+    <CertificadosProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
   </CertificadosProvider>
+  </ProjectProvider>
+
+  
   
 );
 
