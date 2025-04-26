@@ -45,16 +45,6 @@ export function CertificadosProvider({ children }) {
                 certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFQ9xJjrKHctQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736366333965?e=1746216000&v=beta&t=7o7uLI1_fv84ZcG9qV1zDPPhz1LyQKA42QZwp5U1eOM"
             },
             {
-                titulo: "Imersão Front-End 2ª Edição",
-                descricao: "Certificado de participação na Imersão Front-End, 2ª Edição.",
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGUuJR5TpF_Sw/profile-treasury-image-shrink_800_800/B4DZTwqIz.HYAc-/0/1739204366872?e=1746216000&v=beta&t=T0RHLXZg_cBxnKCBxF2vUWv5MEBIC8hQis-oVdZm5tw"
-            },
-            {
-                titulo: "Introdução ao Desenvolvimento Front-end com a Ri Happy",
-                descricao: "Curso introdutório ao desenvolvimento front-end com foco na Ri Happy. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://assets.dio.me/ltIFEmAM10cvYE1hYPTe7oTCkIfa3Aykr3Sg4YA9ufQ/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9NNkgxOVVCVi5qcGc"
-            },
-            {
                 titulo: "Curso HTML5 e CSS3: Módulo 1 de 5",
                 // descricao: "Primeiro módulo de um curso abrangente sobre HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
                 certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
@@ -158,7 +148,7 @@ export function CertificadosProvider({ children }) {
             }
             // ... mais certificados de JavaScript
         ],
-        "React": [
+        "React.js": [
             {
                 titulo: "React.js (Desenvolvimento Front-End)",
                 descricao: "Experiência prática em React.js para criar interfaces de usuário dinâmicas e interativas, utilizando componentes, estados e propriedades.",
@@ -196,7 +186,7 @@ export function CertificadosProvider({ children }) {
                 certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
             }
         ],
-        "Npm":[
+        "npm":[
             {
                 titulo: "NPM (Node Package Manager)",
                 descricao: "Experiência prática em NPM para gerenciar dependências em projetos React (instalação, atualização, remoção) e compreensão do package.json.",
@@ -210,12 +200,94 @@ export function CertificadosProvider({ children }) {
                 certificadoUrl: "https://th.bing.com/th/id/R.d9f66b70e5f47918c52eb009a0a9d00a?rik=YYUwgIaQv0xF0w&pid=ImgRaw&r=0"
             }
         ],
-        "Logic":[
+        "Lógica de Programação":[
+            {
+                titulo: "Aprendendo Lógica de Programação",
+                descricao: "Curso introdutório aos fundamentos da lógica de programação. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/AH1iHWJPQGCjJTkVNMGxhC2Ay14mkP6cyrQea5wAPys/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9JUlEzVUZTRS5qcGc"
+            },
+            {
+                titulo: "Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional",
+                descricao: "Curso com foco em exercícios práticos para aprimorar a lógica de programação. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/rJbtpioW28plNhbcZcXjDGzZL-Dm21vLnpmAv-E_gqY/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9YUFZSQUVRRi5qcGc"
+            },
+            {
+                titulo: "Trabalhando com Variáveis",
+                descricao: "Curso específico sobre o conceito e uso de variáveis em programação. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/MhzRyuxIBQRt9hNcXfvgFSYhOcMem3n10JL_GMJpRIQ/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9LWlVXSDFPTi5qcGc"
+            },
+            {
+                titulo: "Entendendo Algoritmos e Fluxogramas",
+                descricao: "Curso sobre a criação e interpretação de algoritmos e fluxogramas. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/6-xR1EfeTyp3k_RmkVT_4IiOXzw3tR5CkE91EsumBbc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9XVkNHNFNGSC5qcGc"
+            },
+            {
+                titulo: "Trabalhando Com Estruturas Condicionais (if, else if, else)",
+                descricao: "Curso sobre a aplicação de estruturas condicionais em programação. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/wl662tIEbvIQ7EXEOh9mkXu66B824Xr0HUPLegwga4E/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VTUNKUUgzVS5qcGc"
+            },
+            {
+                titulo: "Trabalhando Com Estruturas de Decisão (Estrutura Switch Case)",
+                descricao: "Curso sobre o uso da estrutura de decisão switch case. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/WfMAPbo7alCm3oKmPvqTXZluwu-_vhZaqrqHdA6RZtI/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9CUFlMVzZLVy5qcGc"
+            },
+            {
+                titulo: "Trabalhando Com Estruturas de Repetição (for, while, do-while)",
+                descricao: " Curso sobre a aplicação de estruturas de repetição em programação. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/dSr9M5I6cCOYill7Lu5UQe27JBC0i46bsr3Q_ONDvGM/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9CNktZREM0QS5qcGc"
+            },
+            {
+                titulo: "Classificador de Nível de Herói",
+                descricao: "Projeto prático de programação para classificar o nível de um herói. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/BjMpqhBrPwqDdJ7JXpWIuN0OfYwoQn5rZ2NQ84hm2WM/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9ZSVhGQktPUS5qcGc"
+            },
             {
                 titulo: "Lógica de programação: mergulhe em programação com JavaScript",
                 descricao: "Curso introdutório à lógica de programação utilizando a linguagem JavaScript como ferramenta prática.",
-                certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
+                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGLQuvv2GzyuQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1731854058921?e=1746241200&v=beta&t=U-3bqPg-NpAbclGfm6_LVtJF3yxCw1XHoiEtChS71H0"
             }
+        ],
+        "Complementares":[
+            {
+                titulo: "Entendendo Comunicação Client x Server",
+                descricao: " Curso sobre os conceitos e fundamentos da comunicação entre cliente e servidor. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/jUd9_r3mbd0UjEhbmUm_jgfy-Q9-amUp2Vizy904AZI/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9RVFc4Uk1KUC5qcGc"
+            },
+            {
+                titulo: "Desafios de Projetos: Crie Um Portfólio Vencedor",
+                descricao: "Curso com foco em projetos práticos para a criação de um portfólio de destaque. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/6UU16fv9IW5o3XmXVTu7p6y0C1UFK1BokoqgJRfQPdc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9GTkNVUEFOWS5qcGc"
+            },
+            {
+                titulo: "Estrutura de um Software e Seu Ambiente de Desenvolvimento",
+                descricao: "Curso sobre a organização de um software e a configuração do ambiente de desenvolvimento. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/GpCh4mRA7OOK_tZXo5PUtD7933EhRi1Jq2LjDKO-GGE/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9BN0JVRFhMOC5qcGc"
+            },
+            {
+                titulo: "Discover",
+                descricao: "Introdução ao mundo da tecnologia e desenvolvimento de software, explorando o papel do desenvolvedor, conceitos da internet, frontend/backend, HTML, CSS, JavaScript e Git/GitHub para iniciar a jornada no desenvolvimento web.",
+                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGC6gaMTVUWHg/profile-treasury-image-shrink_800_800/B4DZYcxdCNHAAc-/0/1744239449635?e=1746241200&v=beta&t=BiaY97Yz8qarsPR8kQJ53pyGZkLDwjIjcQruDisvouU"
+            },
+            {
+                titulo: "Imersão Front-End 2ª Edição",
+                descricao: "Certificado de participação na Imersão Front-End, 2ª Edição.",
+                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGUuJR5TpF_Sw/profile-treasury-image-shrink_800_800/B4DZTwqIz.HYAc-/0/1739204366872?e=1746216000&v=beta&t=T0RHLXZg_cBxnKCBxF2vUWv5MEBIC8hQis-oVdZm5tw"
+            },
+            {
+                titulo: "Introdução ao Desenvolvimento Front-end com a Ri Happy",
+                descricao: "Curso introdutório ao desenvolvimento front-end com foco na Ri Happy. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                certificadoUrl: "https://assets.dio.me/ltIFEmAM10cvYE1hYPTe7oTCkIfa3Aykr3Sg4YA9ufQ/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9NNkgxOVVCVi5qcGc"
+            },
+            // {
+            //     titulo: "Hardware",
+            //     descricao: "Curso básico sobre os componentes físicos de um computador (hardware).",
+            //     certificadoUrl: ""
+            // },
+            // {
+            //     titulo: "Bases Numéricas",
+            //     descricao: "Curso sobre os diferentes sistemas de numeração utilizados na computação.",
+            //     certificadoUrl: ""
+            // }
         ],
         
     });
