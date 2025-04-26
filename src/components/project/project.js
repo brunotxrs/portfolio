@@ -1,54 +1,38 @@
 import React from "react";
-
-import "./project.css"
-import spotifyClone from "../../assets/img/spotify-clone.gif"
-import devlinks from "../../assets/img/devlinks.gif"
-import detonaRalph from "../../assets/img/detona-ralph.gif"
-import jogoDaMemoria from "../../assets/img/jogo-da-memoria.gif"
+import "./project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpotify } from "@fortawesome/free-brands-svg-icons";
-
+import { useProject } from "../../context/ProjectContext";
+import ProjectDetails from "./ProjectDetails"; // Certifique-se que este caminho está correto
 
 function Project() {
+  const { projetosData, selecionarProjeto, projetoSelecionado } = useProject();
 
-    return (
-        <div>
-            
-            <div className="container-project">
-                <div className="title">
-                    <h2>Meus Trabalhos</h2>
-                    <p>Detalhes e informações sobre cada trabalho estão disponíveis ao clicar abaixo.</p>
-                </div>
+  return (
+    <div>
+      <div className="container-project">
 
-                <div className="works">
-                    <div className="box-work">
-                        <div className="work">
-                            <p><FontAwesomeIcon icon={faSpotify}/> Spotify-Clone</p>
-                            
-                            <img src={spotifyClone}/>
-                        </div>
-
-                        <div className="work">
-                            <p>DevLinks</p>
-                            <img src={devlinks}/>
-                        </div>
-
-                        <div className="work">
-                            <p>Jogo Detona Ralph</p>
-                            <img src={detonaRalph}/>
-                        </div>
-
-                        <div className="work">
-                            <p>Jogo Da Memoria</p>
-                            <img src={jogoDaMemoria}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+        <div className="title">
+          <h2>Meus Trabalhos</h2>
+          <p>Detalhes e informações sobre cada trabalho estão disponíveis ao clicar abaixo.</p>
         </div>
-    );
-};
+
+        <div className="works">
+          {projetosData.map((projeto) => (
+            <div key={projeto.id} className="box-work" onClick={() => selecionarProjeto(projeto.id)}>
+              <div className="work">
+                <p>{projeto.nome}</p>
+                <img src={projeto.imagem} alt={projeto.nome} />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {projetoSelecionado && <ProjectDetails />}
+      </div>
+      
+    </div>
+  );
+}
 
 export default Project;
