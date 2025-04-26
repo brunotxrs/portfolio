@@ -6,8 +6,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 2.25rem;
-    padding: 0 1.25rem;
-
+    padding: 0 .25rem;
     position: relative;
 
     .title {
@@ -15,6 +14,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        padding: 0 1.25rem;
 
         h2 {
             font-family: var(--ff-sans);
@@ -44,31 +44,37 @@
         
 
         .box-work {
-            padding: 0.3125rem 0;
+            padding: 0.3125rem 0.125rem;
 
             .work {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-evenly;
                 gap: 0.625rem;
-                padding: 0.3125rem 0;
+                padding: 0.3125rem 0 0 0;
                 background: var(--black);    
                 border-radius: 0.3125rem;
+                overflow: hidden;
 
                 p {
                     text-align: center;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
                     font-family: var(--ff-sans);
                     font-size: var(--fs-base);
                     font-weight: var(--fw-md);
                     padding: 0.625rem 0;
+                    
                 }
 
                 img {
                     width: 12.5rem;
                     height: 100%;
                     border-radius: 0.125rem;
-             
                 }
 
                 
