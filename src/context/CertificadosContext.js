@@ -44,31 +44,31 @@ export function CertificadosProvider({ children }) {
                 descricao: "Certificado de aprendizado sobre ambientes de desenvolvimento HTML e CSS, organização de arquivos e a utilização de tags fundamentais. Adquiri este certificado durante a Imersão Front-End 2ª Edição, aprimorando minhas habilidades de desenvolvimento.",
                 certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFQ9xJjrKHctQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736366333965?e=1746216000&v=beta&t=7o7uLI1_fv84ZcG9qV1zDPPhz1LyQKA42QZwp5U1eOM"
             },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 1 de 5",
-                // descricao: "Primeiro módulo de um curso abrangente sobre HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 2 de 5",
-                // descricao: "Segundo módulo do curso, aprofundando em HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 3 de 5",
-                // descricao: "Terceiro módulo do curso, continuando o aprendizado de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 4 de 5",
-                // descricao: "Quarto módulo do curso, avançando nos conceitos de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 5 de 5",
-                // descricao: "Módulo final do curso completo de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            }
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 1 de 5",
+            //     // descricao: "Primeiro módulo de um curso abrangente sobre HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 2 de 5",
+            //     // descricao: "Segundo módulo do curso, aprofundando em HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 3 de 5",
+            //     // descricao: "Terceiro módulo do curso, continuando o aprendizado de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 4 de 5",
+            //     // descricao: "Quarto módulo do curso, avançando nos conceitos de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 5 de 5",
+            //     // descricao: "Módulo final do curso completo de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // }
             
             // ... mais certificados de HTML
         ],
@@ -98,31 +98,31 @@ export function CertificadosProvider({ children }) {
                 descricao: "Certificado de aprendizado sobre ambientes de desenvolvimento HTML e CSS, organização de arquivos e a utilização de tags fundamentais. Adquiri este certificado durante a Imersão Front-End 2ª Edição, aprimorando minhas habilidades de desenvolvimento.",
                 certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFQ9xJjrKHctQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736366333965?e=1746216000&v=beta&t=7o7uLI1_fv84ZcG9qV1zDPPhz1LyQKA42QZwp5U1eOM"
             },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 1 de 5",
-                // descricao: "Primeiro módulo de um curso abrangente sobre HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 2 de 5",
-                // descricao: "Segundo módulo do curso, aprofundando em HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 3 de 5",
-                // descricao: "Terceiro módulo do curso, continuando o aprendizado de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 4 de 5",
-                // descricao: "Quarto módulo do curso, avançando nos conceitos de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            },
-            {
-                titulo: "Curso HTML5 e CSS3: Módulo 5 de 5",
-                // descricao: "Módulo final do curso completo de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
-                certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
-            }
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 1 de 5",
+            //     // descricao: "Primeiro módulo de um curso abrangente sobre HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 2 de 5",
+            //     // descricao: "Segundo módulo do curso, aprofundando em HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 3 de 5",
+            //     // descricao: "Terceiro módulo do curso, continuando o aprendizado de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 4 de 5",
+            //     // descricao: "Quarto módulo do curso, avançando nos conceitos de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // },
+            // {
+            //     titulo: "Curso HTML5 e CSS3: Módulo 5 de 5",
+            //     // descricao: "Módulo final do curso completo de HTML5 e CSS3. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+            //     certificadoUrl: "https://gifmania.com.br/wp-content/uploads/2020/07/aguarde-gif.gif"
+            // }
             // ... mais certificados de CSS
         ],
         "JavaScript": [
