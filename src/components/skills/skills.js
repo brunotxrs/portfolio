@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faFigma, faGitAlt, faGithub, faHtml5, faJs, faNpm, faReact } from "@fortawesome/free-brands-svg-icons";
 import { useCertificados } from "../../context/CertificadosContext";
 import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBrain, faCertificate, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
     const { certificados, certificadosExibidos, certificadoSelecionado, exibirCertificados, selecionarCertificado, fecharCertificados } = useCertificados();
@@ -40,7 +40,7 @@ function Skills() {
 
                         <li onClick={() => exibirCertificados("JavaScript")}><span title="JavaScript" aria-label="JavaScript"><FontAwesomeIcon className="js" icon={faJs} /></span></li>
 
-                        <li onClick={() => exibirCertificados("React")}><span title="React.js" aria-label="React.js"><FontAwesomeIcon className="react" icon={faReact} /></span></li>
+                        <li onClick={() => exibirCertificados("React.js")}><span title="React.js" aria-label="React.js"><FontAwesomeIcon className="react" icon={faReact} /></span></li>
                     </ul>
                 </div>
 
@@ -49,11 +49,22 @@ function Skills() {
                     <ul>
                         <li onClick={() => exibirCertificados("Git")}><span title="Git" aria-label="Git"><FontAwesomeIcon className="git" icon={faGitAlt} /></span></li>
 
-                        <li><span><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
+                        <li><span title="Github" aria-label="Github"><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
 
-                        <li onClick={() => exibirCertificados("Npm")}><span  title="npm" aria-label="npm"><FontAwesomeIcon className="npm" icon={faNpm} /></span></li>
+                        <li onClick={() => exibirCertificados("npm")}><span  title="npm" aria-label="npm"><FontAwesomeIcon className="npm" icon={faNpm} /></span></li>
                         
                         <li onClick={() => exibirCertificados("Figma")}><span title="Figma" aria-label="Figma"><FontAwesomeIcon className="figma" icon={faFigma} /></span></li>
+                    </ul>
+                </div>
+
+                <div className="skills">
+                    <p>Outros:</p>
+                    <ul>
+                        <li onClick={() => exibirCertificados("Lógica de Programação")}><span title="Lógica de Programação" aria-label="Lógica de Programação"><FontAwesomeIcon className="logic" icon={faBrain} /></span></li>
+
+                        <li onClick={() => exibirCertificados("Complementares")}><span title="Certificados" aria-label="Certificados"><FontAwesomeIcon className="certificate" icon={faCertificate} /></span></li>
+
+                       
                     </ul>
                 </div>
 
