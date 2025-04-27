@@ -34,6 +34,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                     >
                         <li 
                         style={{ 
+                            display: 'flex',
                             borderRadius: '9999px',
                             flexDirection: 'row',
                             justifyContent: 'center', 
@@ -54,6 +55,7 @@ function Header({ onProjectClick, onSkillsClick }) {
 
                         <li 
                         style={{ 
+                            display: 'flex',
                             borderRadius: '9999px',
                             flexDirection: 'row',
                             justifyContent: 'center', 
@@ -69,9 +71,6 @@ function Header({ onProjectClick, onSkillsClick }) {
                             ><FontAwesomeIcon className="linkedin" icon={faLinkedinIn} /></a>
                         </li>
                         
-                        {/* <li>
-                            <a href=""><FontAwesomeIcon className="instagram" icon={faInstagram} /></a>
-                        </li> */}
                     </ul>
                 </div>
 
