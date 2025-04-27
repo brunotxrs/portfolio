@@ -26,45 +26,40 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>  
 
                 <div className="link-social" 
-                style={{ 
-                    display: 'flex', 
-                    width: '100%', 
-                    height: '50px', 
-                    alignItems: 'center',justifyContent: 'right'
-                    }}>
+                >
                     
                     <ul className="box-links" 
-                    style={{ 
-                        width: '80%',
-                        height: '100%', 
-                        display: 'flex', flexDirection: 'row', alignItems: 'center',justifyContent: 'space-evenly'
-                     }}>
+                    >
                         <li 
                         style={{ 
-                            listStyle: 'none', height: '70%', 
-                            width: '15%', 
                             display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', 
                             borderRadius: '9999px' 
                             }}>
                             <a href="https://github.com/brunotxrs" target="_blank"
                             style={{ 
-                                 height: '100%', 
-                                width: '100%', 
-                                display: 'flex', alignItems: 'center', justifyContent: 'center', 
-                                borderRadius: '9999px'
-                            }}>
-                            <FontAwesomeIcon 
-                            style={{ 
                                 height: '100%', 
-                                width: '100%',  
-                                borderRadius: '9999px' 
-                            }}
+                                width: '100%', 
+                                display: 'flex', 
+                                alignItems: 'center', justifyContent: 'center'
+                           }}>
+                            <FontAwesomeIcon 
                             className="github" icon={faGithub} />
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/brunotxrs/" target="_blank"
-                            style={{  }}
+
+                        <li 
+                        style={{ 
+                            display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', 
+                            borderRadius: '9999px' 
+                            }}>
+                            <a
+                            style={{ 
+                                height: '100%', 
+                                width: '100%', 
+                                display: 'flex', 
+                                alignItems: 'center', justifyContent: 'center'
+                           }} 
+                            href="https://www.linkedin.com/in/brunotxrs/" target="_blank"
                             ><FontAwesomeIcon className="linkedin" icon={faLinkedinIn} /></a>
                         </li>
                         
