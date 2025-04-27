@@ -1,20 +1,38 @@
 import React from "react";
 import './header.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { useLanguage } from '../../context/LanguageContext'
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 
 
 function Header({ onProjectClick, onSkillsClick }) {
   
+    const { language, changeLanguage, getTranslation } = useLanguage();
+
+    const handleLanguageChange = (event) => {
+        changeLanguage(event.target.value);
+    };
+
+
     return (
         <div>
             <div className="container-header">
 
+                <div className="language">
+                    <label htmlFor="language"><span><FontAwesomeIcon className="world" icon={faGlobe}/></span></label>
+
+                    <select id="language" value={language} onChange={handleLanguageChange}>
+                        <option value="pt" >Português</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+
                 <div className="box-header">
                     <div className="titulo">
-                        <h1><span>Eu sou</span> Bruno Teixeira</h1>
-                        <h2>Desenvolvedor Front-End</h2>
+                        <h1><span>{getTranslation('euSou')}</span>Bruno Teixeira</h1>
+                        <h2>{getTranslation('desenvolvedorFrontEnd')}</h2>
                     </div>
                     <div className="img">
                         <img src="https://raw.githubusercontent.com/brunotxrs/dev-links/d0021d8d8e5a663121f72bf62353a067a091eb8a/src/assets/img/avatar-light.svg" alt="imagem de Bruno Teixeira de Óculos" />
@@ -22,7 +40,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>
 
                 <div className="about">
-                    <p>Desenvolvedor Front-End com paixão por transformar ideias em experiências web impactantes.</p>
+                    <p>{getTranslation('sobreMim')}</p>
                 </div>  
 
                 <div className="link-social" 
@@ -88,7 +106,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                         style={{
                             display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
                         }}
-                        >Projetos</span></li>
+                        >{ getTranslation('projetos') }</span></li>
 
                         <li 
                         style={{
@@ -98,7 +116,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                         style={{
                             display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
                         }}
-                        >habilidades</span></li>
+                        >{getTranslation('habilidades')}</span></li>
                     </ul>
                 </div>
 
