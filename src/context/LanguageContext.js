@@ -17,6 +17,8 @@ const translations = {
     'LogicaDeProgramacao': 'Lógica de Programação',
     'certificado': 'Certificados',
     // Certificados
+    'Lógica de Programação': 'Lógica de Programação',
+    'Complementares': 'Complementares',
     
   },
   en: {
@@ -33,6 +35,8 @@ const translations = {
     'LogicaDeProgramacao': 'Programming Logic',
     'certificado': 'Certificates',
     // Certificates
+    'Lógica de Programação': 'Programming Logic',
+    'Complementares': 'Complementary',
   },
 };
 
