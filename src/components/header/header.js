@@ -30,7 +30,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                 >
                     
                     <ul className="box-links"
-                     style={{ alignItems: 'center' }}
+                     style={{display:'flex',  flexDirection: 'row', alignItems: 'center' }}
                     >
                         <li 
                         style={{ 
