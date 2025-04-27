@@ -113,14 +113,18 @@
         justify-content: right;
         
 
-        ul {
+        .box-links {
             width: 80%;
+            height: 30px;
             list-style: none;
             display: flex;
             flex-direction: row;
+            align-items: center;
             justify-content: space-evenly;
+            outline: 1px solid red;
 
             li {
+                
                 width: 1.875rem;
                 height: 1.875rem;
                 display: flex;
@@ -132,6 +136,7 @@
                 background-color: var(--purple);
                 overflow: hidden;
                 outline: unset 2px solid var(--purple-vibrant);
+                outline: 1px solid yellow;
 
                 .social {
                     width: 100%;
@@ -164,9 +169,12 @@
                     flex-direction: row;
                     align-items: center;
                     justify-content: center;
+                    text-align: center;
                     width: 2.8125rem;
                     height: 1.25rem;
                     color: var(--purple);
+
+                    outline: 1px solid white;
                 }
             }
 
@@ -185,8 +193,8 @@
         justify-content: right;
         align-items: center;
 
-        ul {
-
+        .box-links {
+            outline: 1px solid red;
             width: 90%;
             height: 1.875rem;
             list-style: none;
@@ -196,9 +204,11 @@
             justify-content: space-around;
 
             li {
+                width: 40%;
                 height: 100%;
                 display: flex;
                 align-items: center;
+                justify-content: center;
 
                 outline: 1px solid var(--purple-vibrant);
   
@@ -207,12 +217,17 @@
                 background: var(--liner-gradient-btn);
 
                 span {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
                     color: var(--white);
                     font-family: var(--ff-sans);
                     font-size: var(--fs-sm);
                     font-weight: var(--fw-bold);
                     text-transform: uppercase;
                     cursor: pointer;
+                    outline: 1px solid yellow;
                 }
 
                 span:hover {

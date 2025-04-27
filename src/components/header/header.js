@@ -26,18 +26,24 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>  
 
                 <div className="link-social">
-                    <ul>
-                        <li><a href="https://github.com/brunotxrs" target="_blank">
+                    <ul className="box-links">
+                        <li>
+                            <a href="https://github.com/brunotxrs" target="_blank">
                             <FontAwesomeIcon className="social" icon={faGithub} />
-                        </a></li>
-                        <li><a href="https://www.linkedin.com/in/brunotxrs/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedinIn} /></a></li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/brunotxrs/" target="_blank"><FontAwesomeIcon className="linkedin" icon={faLinkedinIn} /></a>
+                        </li>
                         
-                        <li><a href=""><FontAwesomeIcon className="instagram" icon={faInstagram} /></a></li>
+                        {/* <li>
+                            <a href=""><FontAwesomeIcon className="instagram" icon={faInstagram} /></a>
+                        </li> */}
                     </ul>
                 </div>
 
                 <div className="navigation">
-                    <ul>
+                    <ul className="box-links">
                         <li onClick={onProjectClick}><span>Projetos</span></li>
 
                         <li onClick={onSkillsClick}><span>habilidades</span></li>
