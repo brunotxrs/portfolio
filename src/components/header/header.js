@@ -76,10 +76,30 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>
 
                 <div className="navigation">
-                    <ul className="box-links">
-                        <li onClick={onProjectClick}><span>Projetos</span></li>
+                    <ul className="box-links" 
+                    style={{
+                        display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'space-around'
+                    }}
+                    >
+                        <li 
+                        style={{
+                            display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
+                        }}
+                        onClick={onProjectClick}><span
+                        style={{
+                            display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
+                        }}
+                        >Projetos</span></li>
 
-                        <li onClick={onSkillsClick}><span>habilidades</span></li>
+                        <li 
+                        style={{
+                            display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
+                        }} 
+                        onClick={onSkillsClick}><span 
+                        style={{
+                            display:'flex',  flexDirection: 'row', alignItems: 'center' ,             justifyContent: 'center'
+                        }}
+                        >habilidades</span></li>
                     </ul>
                 </div>
 

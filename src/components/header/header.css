@@ -174,10 +174,8 @@
         flex-direction: row;
         justify-content: right;
         align-items: center;
-        outline: 1px solid rebeccapurple;
 
         .box-links {
-            outline: 1px solid red;
             width: 90%;
             height: 1.875rem;
             list-style: none;
@@ -210,7 +208,6 @@
                     font-weight: var(--fw-bold);
                     text-transform: uppercase;
                     cursor: pointer;
-                    outline: 1px solid yellow;
                 }
 
                 span:hover {
