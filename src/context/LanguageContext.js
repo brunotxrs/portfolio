@@ -28,7 +28,7 @@ const translations = {
     'imagemDeBruno': 'Bruno Teixeira wearing glasses image',
     // Tela Skills
     'expoloreHabilidades': 'Explore my skills by clicking the icons below.',
-    'ferramentas': 'Tolls:',
+    'ferramentas': 'Tools:',
     'outros': 'Others:',
     'LogicaDeProgramacao': 'Programming Logic',
     'certificado': 'Certificates',
