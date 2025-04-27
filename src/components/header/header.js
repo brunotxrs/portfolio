@@ -26,10 +26,11 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>  
 
                 <div className="link-social">
+                    
                     <ul className="box-links">
                         <li>
                             <a href="https://github.com/brunotxrs" target="_blank">
-                            <FontAwesomeIcon className="social" icon={faGithub} />
+                            <FontAwesomeIcon className="github" icon={faGithub} />
                             </a>
                         </li>
                         <li>
