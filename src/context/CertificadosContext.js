@@ -1,17 +1,27 @@
 import React, { createContext, useState, useContext } from 'react';
+import { useLanguage } from './LanguageContext';
 
 const CertificadosContext = createContext();
 
 export function useCertificados() {
+
     return useContext(CertificadosContext);
 }
 
 export function CertificadosProvider({ children }) {
+    const { language, getTranslation } = useLanguage()
+
     const [certificados, setCertificados] = useState({
         "HTML": [
             {
-                titulo: "Introdução ao HTML na Prática",
-                descricao: "Curso introdutório sobre HTML. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                titulo: {
+                    pt: "Introdução ao HTML na Prática",
+                    en: "Introduction to HTML in Practice",
+                  },
+                  descricao: {
+                    pt: "Curso introdutório sobre HTML. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                    en: "Introductory course on HTML. I acquired this certificate during the Front-End Developer Training Course, enhancing my development skills.",
+                  },
                 certificadoUrl: "https://assets.dio.me/FQrv_wMczFFJ78h7JpGv5xhM3yo2or6I0sboeJb_sg8/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9YVFAwQ0dESi5qcGc"
             },
             {
