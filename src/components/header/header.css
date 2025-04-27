@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: 1px solid var(--purple);
+    border-bottom: 0.0625rem solid var(--purple);
 
     .box-header {
         display: flex;
@@ -30,11 +30,11 @@
                 justify-content: space-between;
                 display: flex;
                 flex-direction: column;
-                letter-spacing: 1px;
+                letter-spacing: 0.0625rem;
                 font-family: var(--ff-sans);
                 font-size: var(--fs-lg);
                 color: var(--white);
-                text-shadow: 1px 1px 2px var(--black);
+                text-shadow: 0.0625rem 0.0625rem 0.125rem var(--black);
                 
 
                 span {
@@ -51,14 +51,14 @@
             h2 {
                 width: 100%;
                 padding-bottom: 1.25rem;
-                letter-spacing: 0.5px;
+                letter-spacing: 0.0313rem;
                 font-size: var(--fs-3xl);
                 font-family: var(--ff-sans);
                 font-weight: 800;
                 background-image: var(--liner-gradient-title); 
                 background-clip: text; 
                 color: transparent; 
-                filter: drop-shadow(0px 0px 1px var(--black));
+                filter: drop-shadow(0rem 0rem 0.0625rem var(--black));
             }
 
 
@@ -72,7 +72,7 @@
             left: calc(100vw - 8.5rem);
             top: 2.7rem;
             transform: rotate(45deg);
-            box-shadow: 1px 1px 2px var(--black);
+            box-shadow: 0.0625rem 0.0625rem 0.125rem var(--black);
             overflow: hidden;
         
             img {
@@ -82,7 +82,7 @@
                 margin-left: -1.25rem;
                 transform: rotate(-45deg);
                 background: var(--white);
-                outline: 2px solid var(--purple);
+                outline: 0.125rem solid var(--purple);
             }
 
         }
@@ -107,7 +107,7 @@
 
     .link-social {
         width: 100%;
-        height: 50px;
+        height: 3.125rem;
         display: flex;
         align-items: center;
         justify-content: right;
@@ -122,13 +122,13 @@
 
             li {
                 list-style: none;
-                height: 40px;
-                width: 40px;
+                height: 2.5rem;
+                width: 2.5rem;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                border-radius: 9999px;
+                border-radius: 624.9375rem;
 
                 a {
                     height: 100%;
@@ -136,7 +136,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border-radius: 9999px;
+                    border-radius: 624.9375rem;
                     background: var(--purple-vibrant);
 
                     .github {
@@ -144,7 +144,7 @@
                         background: var(--purple);
                         width: 100%;
                         height: 100%;
-                        border-radius: 9999px;
+                        border-radius: 624.9375rem;
 
                     }
 
@@ -152,14 +152,14 @@
                         color: var(--purple);
                         width: 90%;
                         height: 70%;
-                        border-radius: 9999px;
+                        border-radius: 624.9375rem;
                     }
                 }
 
             }
 
             li:hover {
-                filter: drop-shadow(0 0 4px var(--purple-vibrant));
+                filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
             }
 
 
@@ -169,7 +169,7 @@
 
     .navigation {
         width: 100%;
-        height: 30px;
+        height: 1.875rem;
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -191,7 +191,7 @@
                 align-items: center;
                 justify-content: center;
 
-                outline: 1px solid var(--purple-vibrant);
+                outline: 0.0625rem solid var(--purple-vibrant);
   
                 padding: 0.3125rem 0.625rem;
                 border-radius: 624.9375rem;
@@ -211,13 +211,13 @@
                 }
 
                 span:hover {
-                    filter: drop-shadow(0 0 2px var(--black)) ;
+                    filter: drop-shadow(0 0 0.125rem var(--black)) ;
                 }
                 
             }
 
             li:active {
-                transform: translateY(2px);
+                transform: translateY(0.125rem);
             }
 
             
