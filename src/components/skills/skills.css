@@ -278,6 +278,11 @@
 
         }
 
+        .titulo-certificado-detalhe {
+            font-family: var(--ff-sans);
+            font-weight: var(--fs-base);
+        }
+
         
     }
 
