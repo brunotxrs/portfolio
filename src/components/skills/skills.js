@@ -9,32 +9,24 @@ import { useLanguage } from "../../context/LanguageContext";
 
 function Skills() {
     const { language, getTranslation } = useLanguage();
-    const { certificados, certificadosExibidos, certificadoSelecionado, exibirCertificados, selecionarCertificado, fecharCertificados } = useCertificados();
+    const { certificados, certificadosExibidos, exibirCertificados, fecharCertificados } = useCertificados();
     const [exibirCertificadoDetalhe, setExibirCertificadoDetalhe] = useState(false);
-    const [urlCertificadoDetalhe, setUrlCertificadoDetalhe] = useState(null);
+    const [certificadoDetalhe, setCertificadoDetalhe] = useState(null);
 
-    const handleVisualizarCertificado = (url) => {
-        const certificado = certificadosExibidos?.find(cert => cert.certificadoUrl === url);
-        setUrlCertificadoDetalhe(url);
-        setDescricaoCertificadoDetalhe(certificado?.descricao[language] || certificado?.descricao.pt || "");
-        setTituloCertificadoDetalhe(certificado?.titulo[language] || certificado?.titulo.pt || "");
+    const handleVisualizarCertificado = (certificado) => {
+        setCertificadoDetalhe(certificado);
         setExibirCertificadoDetalhe(true);
     };
 
     const handleFecharCertificadoDetalhe = () => {
-        setUrlCertificadoDetalhe(null);
+        setCertificadoDetalhe(null);
         setExibirCertificadoDetalhe(false);
-        setDescricaoCertificadoDetalhe(null);
-        setTituloCertificadoDetalhe(null);
     };
-
-    const [descricaoCertificadoDetalhe, setDescricaoCertificadoDetalhe] = useState(null);
-    const [tituloCertificadoDetalhe, setTituloCertificadoDetalhe] = useState(null);
 
     return (
         <div>
             <div className="container-skills">
-                
+
                 <div>
                     <h2>{getTranslation('habilidades')}</h2>
                     <p>{getTranslation('expoloreHabilidades')}</p>
@@ -74,7 +66,7 @@ function Skills() {
                             <h3>{getTranslation(Object.keys(certificados).find(key => certificados[key] === certificadosExibidos) || 'certificados')}</h3>
                             <ul>
                                 {certificadosExibidos.map((certificado, index) => (
-                                    <li key={index} onClick={() => handleVisualizarCertificado(certificado.certificadoUrl)}>
+                                    <li key={index} onClick={() => handleVisualizarCertificado(certificado)}>
                                         {certificado.titulo[language] || certificado.titulo.pt || "Título não traduzido"} <span><FontAwesomeIcon icon={faEyeSlash} /></span>
                                     </li>
                                 ))}
@@ -84,7 +76,7 @@ function Skills() {
                     </div>
                 )}
 
-                {exibirCertificadoDetalhe && urlCertificadoDetalhe && (
+                {exibirCertificadoDetalhe && certificadoDetalhe && (
                     <div className="box-details-certificate">
                         <div className="box-btn">
                             <span className="button" onClick={handleFecharCertificadoDetalhe}>
@@ -93,13 +85,15 @@ function Skills() {
                         </div>
 
                         <div className="certificado-detalhe"
-                            style={{ backgroundImage: `url(${urlCertificadoDetalhe})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height:'50%' }}>
+                            style={{ backgroundImage: `url(${certificadoDetalhe.certificadoUrl})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height:'50%' }}>
                         </div>
 
                         <span className="description">
-                            {descricaoCertificadoDetalhe}
+                            {certificadoDetalhe.descricao[language] || certificadoDetalhe.descricao.pt || ""}
                         </span>
-                        {tituloCertificadoDetalhe && <h4 className="titulo-certificado-detalhe">{tituloCertificadoDetalhe}</h4>}
+                        <h4 className="titulo-certificado-detalhe">
+                            {certificadoDetalhe.titulo[language] || certificadoDetalhe.titulo.pt || ""}
+                        </h4>
                     </div>
                 )}
 
