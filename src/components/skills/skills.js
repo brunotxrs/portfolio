@@ -23,6 +23,8 @@ function Skills() {
         setExibirCertificadoDetalhe(false);
     };
 
+    const categoriaAtual = Object.keys(certificados).find(key => certificados[key] === certificadosExibidos) || 'certificado';
+
     return (
         <div>
             <div className="container-skills">
@@ -63,7 +65,7 @@ function Skills() {
                 {certificadosExibidos && !exibirCertificadoDetalhe && (
                     <div className="overlay">
                         <div className="certificados-lista">
-                            <h3>{getTranslation(Object.keys(certificados).find(key => certificados[key] === certificadosExibidos) || 'certificados')}</h3>
+                        <h3>{getTranslation(categoriaAtual)}</h3>
                             <ul>
                                 {certificadosExibidos.map((certificado, index) => (
                                     <li key={index} onClick={() => handleVisualizarCertificado(certificado)}>
