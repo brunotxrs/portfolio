@@ -10,6 +10,14 @@ const translations = {
     'projetos': 'Projetos',
     'habilidades': 'Habilidades',
     'imagemDeBruno': 'imagem de Bruno Teixeira de Óculos',
+    // Tela Habilidade
+    'expoloreHabilidades': 'Explore minhas habilidades clicando nos ícones abaixo.',
+    'ferramentas': 'Ferramentas:',
+    'outros': 'Outros:',
+    'LogicaDeProgramacao': 'Lógica de Programação',
+    'certificado': 'Certificados',
+    // Certificados
+    
   },
   en: {
     'euSou': 'I am',
@@ -18,6 +26,13 @@ const translations = {
     'projetos': 'Projects',
     'habilidades': 'Skills',
     'imagemDeBruno': 'Bruno Teixeira wearing glasses image',
+    // Tela Skills
+    'expoloreHabilidades': 'Explore my skills by clicking the icons below.',
+    'ferramentas': 'Tolls:',
+    'outros': 'Others:',
+    'LogicaDeProgramacao': 'Programming Logic',
+    'certificado': 'Certificates',
+    // Certificates
   },
 };
 
