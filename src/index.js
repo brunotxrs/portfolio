@@ -5,17 +5,22 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { CertificadosProvider } from './context/CertificadosContext';
 import { ProjectProvider } from './context/ProjectContext';
+import { LanguageProvider } from './context/LanguageContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <ProjectProvider>
-    <CertificadosProvider>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-  </CertificadosProvider>
-  </ProjectProvider>
+  <LanguageProvider>
+    <ProjectProvider>
+      <CertificadosProvider>
+        <React.StrictMode>
+          <App />
+        </React.StrictMode>
+      </CertificadosProvider>
+    </ProjectProvider>
+  </LanguageProvider>
+
+  
 
   
   
