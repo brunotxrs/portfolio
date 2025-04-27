@@ -26,22 +26,27 @@ function Header({ onProjectClick, onSkillsClick }) {
                 </div>  
 
                 <div className="link-social" 
+                style={{ height: '50px' }}
                 >
                     
-                    <ul className="box-links" 
+                    <ul className="box-links"
+                     style={{ alignItems: 'center' }}
                     >
                         <li 
                         style={{ 
-                            display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', 
-                            borderRadius: '9999px' 
+                            borderRadius: '9999px',
+                            flexDirection: 'row',
+                            justifyContent: 'center', 
                             }}>
-                            <a href="https://github.com/brunotxrs" target="_blank"
+                            <a
                             style={{ 
                                 height: '100%', 
                                 width: '100%', 
                                 display: 'flex', 
                                 alignItems: 'center', justifyContent: 'center'
-                           }}>
+                           }}
+                            href="https://github.com/brunotxrs" target="_blank"
+                            >
                             <FontAwesomeIcon 
                             className="github" icon={faGithub} />
                             </a>
@@ -49,8 +54,9 @@ function Header({ onProjectClick, onSkillsClick }) {
 
                         <li 
                         style={{ 
-                            display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', 
-                            borderRadius: '9999px' 
+                            borderRadius: '9999px',
+                            flexDirection: 'row',
+                            justifyContent: 'center', 
                             }}>
                             <a
                             style={{ 
