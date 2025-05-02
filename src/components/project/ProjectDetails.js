@@ -1,12 +1,14 @@
 import React from 'react';
 import { useProject } from '../../context/ProjectContext';
-import "./project.css"; // Certifique-se que este caminho está correto
+import "./project.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { useLanguage } from "../../context/LanguageContext"
 
 function ProjectDetails() {
   const { projetoSelecionado, projetosData, fecharProjeto } = useProject();
+  const { language, getTranslation } = useLanguage();
 
   if (!projetoSelecionado) {
     return null;
@@ -21,9 +23,9 @@ function ProjectDetails() {
   return (
     <div className="project-details-overlay">
       <div className="project-details">
-            <h3>{projeto.nome}</h3>
+            <h3>{getTranslation(projeto.nome)}</h3>
 
-            <p>{projeto.descricao}</p>
+            <p>{projeto.descricao[language] || projeto.descricao.pt || "Descrição não traduzida"}</p>
 
             <div className="project-links">
             {projeto.linkProjeto && (
