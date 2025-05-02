@@ -19,7 +19,15 @@ const translations = {
     // Certificados
     'Lógica de Programação': 'Lógica de Programação',
     'Complementares': 'Complementares',
-    
+    // Projetos
+    'meusTrabalhos':'Meus Trabalhos',
+    'subTituloTrabalho':'Detalhes e informações sobre cada trabalho estão disponíveis ao clicar abaixo.',
+    'Jogo Detona Ralph': 'Jogo Detona Ralph',
+    'Spotify Clone': 'Spotify Clone',
+    'DevLinks': 'DevLinks',
+    'Jogo da Memória': 'Jogo da Memória',
+    'PetLife': 'PetLife',
+    'Travelgram': 'Travelgram',
   },
   en: {
     'euSou': 'I am',
@@ -37,6 +45,15 @@ const translations = {
     // Certificates
     'Lógica de Programação': 'Programming Logic',
     'Complementares': 'Complementary',
+    // Projetos
+    'meusTrabalhos':'My Works',
+    'subTituloTrabalho':'Details and information about each job are available by clicking below.',
+    'Jogo Detona Ralph': 'Wreck-It Ralph Game',
+    'Spotify Clone': 'Spotify Clone',
+    'DevLinks': 'DevLinks',
+    'Jogo da Memória': 'Memory Game',
+    'PetLife': 'PetLife',
+    'Travelgram': 'Travelgram',
   },
 };
 
