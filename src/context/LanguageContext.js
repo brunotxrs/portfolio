@@ -28,6 +28,7 @@ const translations = {
     'Jogo da Memória': 'Jogo da Memória',
     'PetLife': 'PetLife',
     'Travelgram': 'Travelgram',
+    'paragraph': 'Meu compromisso é entregar experiências web que inspirem e engajem.',
   },
   en: {
     'euSou': 'I am',
@@ -54,6 +55,7 @@ const translations = {
     'Jogo da Memória': 'Memory Game',
     'PetLife': 'PetLife',
     'Travelgram': 'Travelgram',
+    'paragraph': 'My commitment is to deliver web experiences that inspire and engage.',
   },
 };
 
