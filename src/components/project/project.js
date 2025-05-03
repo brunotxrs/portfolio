@@ -29,6 +29,9 @@ function Project() {
         </div>
 
         {projetoSelecionado && <ProjectDetails />}
+
+
+        <p className="paragraph">{getTranslation('paragraph')}</p>
       </div>
       
     </div>

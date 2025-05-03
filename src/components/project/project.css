@@ -5,6 +5,7 @@
     color: var(--white);
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     row-gap: 2.25rem;
     padding: 0 .25rem;
     position: relative;
@@ -169,14 +170,10 @@
             }
 
             .btn {
-
                 width: 100%;
-                height: 6.25rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 0.625rem;
-               
 
                 button {
                     width: 2.5rem;
@@ -189,7 +186,6 @@
                     flex-direction: row;
                     align-items: center;
                     justify-content: center;
-                    cursor: pointer;
                     
                 }
 
@@ -209,6 +205,13 @@
 
         }
     
+    }
+
+    .paragraph {
+        padding: 0.5rem 1.25rem;
+        font-family: var(--ff-sans);
+        font-size: var(--fs-sm);
+        text-align: center;
     }
 
 }
