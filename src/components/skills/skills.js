@@ -34,32 +34,38 @@ function Skills() {
                     <p>{getTranslation('expoloreHabilidades')}</p>
                 </div>
 
-                <div className="skills">
-                    <p>Front-End:</p>
-                    <ul>
-                        <li onClick={() => exibirCertificados("HTML")}><span title="HTML5" aria-label="HTML5"><FontAwesomeIcon className="html" icon={faHtml5} /></span></li>
-                        <li onClick={() => exibirCertificados("CSS")}><span title="CSS3" aria-label="CSS3"><FontAwesomeIcon className="css" icon={faCss3Alt} /></span></li>
-                        <li onClick={() => exibirCertificados("JavaScript")}><span title="JavaScript" aria-label="JavaScript"><FontAwesomeIcon className="js" icon={faJs} /></span></li>
-                        <li onClick={() => exibirCertificados("React.js")}><span title="React.js" aria-label="React.js"><FontAwesomeIcon className="react" icon={faReact} /></span></li>
-                    </ul>
-                </div>
+                <div className="box-skills">
+                    
+                    <div className="skills">
+                        <p>Front-End:</p>
+                        <ul>
+                            <li onClick={() => exibirCertificados("HTML")}><span title="HTML5" aria-label="HTML5"><FontAwesomeIcon className="html" icon={faHtml5} /></span></li>
+                            <li onClick={() => exibirCertificados("CSS")}><span title="CSS3" aria-label="CSS3"><FontAwesomeIcon className="css" icon={faCss3Alt} /></span></li>
+                            <li onClick={() => exibirCertificados("JavaScript")}><span title="JavaScript" aria-label="JavaScript"><FontAwesomeIcon className="js" icon={faJs} /></span></li>
+                            
+                            <li onClick={() => exibirCertificados("React.js")}><span title="React.js" aria-label="React.js"><FontAwesomeIcon className="react" icon={faReact} /></span></li>
 
-                <div className="skills">
-                    <p>{getTranslation('ferramentas')}</p>
-                    <ul>
-                        <li onClick={() => exibirCertificados("Git")}><span title="Git" aria-label="Git"><FontAwesomeIcon className="git" icon={faGitAlt} /></span></li>
-                        <li><span title="Github" aria-label="Github"><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
-                        <li onClick={() => exibirCertificados("npm")}><span  title="npm" aria-label="npm"><FontAwesomeIcon className="npm" icon={faNpm} /></span></li>
-                        <li onClick={() => exibirCertificados("Figma")}><span title="Figma" aria-label="Figma"><FontAwesomeIcon className="figma" icon={faFigma} /></span></li>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-                <div className="skills">
-                    <p>{getTranslation('outros')}</p>
-                    <ul>
-                        <li onClick={() => exibirCertificados("Lógica de Programação")}><span title={getTranslation('LogicaDeProgramacao')} aria-label="Lógica de Programação"><FontAwesomeIcon className="logic" icon={faBrain} /></span></li>
-                        <li onClick={() => exibirCertificados("Complementares")}><span title={getTranslation('certificado')} aria-label="Certificados"><FontAwesomeIcon className="certificate" icon={faCertificate} /></span></li>
-                    </ul>
+                    <div className="skills">
+                        <p>{getTranslation('ferramentas')}</p>
+                        <ul>
+                            <li onClick={() => exibirCertificados("Git")}><span title="Git" aria-label="Git"><FontAwesomeIcon className="git" icon={faGitAlt} /></span></li>
+                            <li><span title="Github" aria-label="Github"><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
+                            <li onClick={() => exibirCertificados("npm")}><span  title="npm" aria-label="npm"><FontAwesomeIcon className="npm" icon={faNpm} /></span></li>
+                            <li onClick={() => exibirCertificados("Figma")}><span title="Figma" aria-label="Figma"><FontAwesomeIcon className="figma" icon={faFigma} /></span></li>
+                        </ul>
+                    </div>
+
+                    <div className="skills">
+                        <p>{getTranslation('outros')}</p>
+                        <ul>
+                            <li onClick={() => exibirCertificados("Lógica de Programação")}><span title={getTranslation('LogicaDeProgramacao')} aria-label="Lógica de Programação"><FontAwesomeIcon className="logic" icon={faBrain} /></span></li>
+                            <li onClick={() => exibirCertificados("Complementares")}><span title={getTranslation('certificado')} aria-label="Certificados"><FontAwesomeIcon className="certificate" icon={faCertificate} /></span></li>
+                        </ul>
+                    </div>
+
                 </div>
 
                 {certificadosExibidos && !exibirCertificadoDetalhe && (
