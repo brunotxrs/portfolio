@@ -280,3 +280,146 @@
 
 }
 
+@media screen and (min-width: 41.6875rem) and (max-width: 61.9375rem) and (orientation: landscape) {
+    
+    .container-header {
+        width: 100%;
+        height: 100vh;
+        align-items: flex-start;
+
+        .box-header {
+            height: 13rem;
+            padding: 0 0 0 3.125rem;
+
+            .titulo {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                row-gap: 1.875rem;
+                height: 100%;
+                width: 50%;
+    
+                h1 {
+                    padding: 0 0;
+                    font-family: var(--ff-sans);
+                    
+                    span {
+                        font-size: var(--fs-base);
+    
+                    }
+    
+                }
+    
+                h2 {
+                    padding-bottom: 0;
+                    font-size: var(--fs-3xl);
+                    font-family: var(--ff-sans);
+                    
+                }
+    
+    
+            }
+    
+            .img {
+                height: 9.50rem;
+                width: 9.50rem;
+                position: absolute;
+                left: calc(100vw - 16rem);
+                top: 2.5rem;
+                
+            
+                img {
+                    width: 14rem;
+                    height: 15rem;
+                    margin-top: -3rem;
+                    margin-left: -1.8rem;
+                    
+                }
+    
+            }
+    
+    
+        }
+    
+        .about {
+            width: 60%;
+            font-size: var(--fs-base);
+            padding-left: 3.125rem;
+
+        }
+    
+        .link-social {
+            width: 40%;
+            position: absolute;
+            right: 0;
+            top: calc(100vh - 8.125rem);
+            display: flex;
+            justify-content: center;
+
+            .box-links {
+                width: 100%;
+                justify-content: space-around;
+                
+                li {
+                    
+                    a {
+                        
+                        .github {
+                            width: 110%;
+                            height: 110%;
+                            
+                        }
+    
+                        .linkedin {
+                            width: 100%;
+                            height: 70%;
+                        }
+                    }
+    
+                }
+    
+                li:hover {
+                    filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
+                }
+    
+                li:focus {
+                    outline: none;
+                }
+    
+    
+            }
+            
+        }
+    
+        .navigation {
+            
+            .box-links {
+                width: 21.875rem;
+                
+                li {
+                    width: 40%;
+                    
+                    span {
+                        font-size: var(--fs-sm);
+                        
+                    }
+    
+                    span:hover {
+                        filter: drop-shadow(0 0 0.125rem var(--black)) ;
+                    }
+                    
+                }
+    
+                li:active {
+                    transform: translateY(0.125rem);
+                }
+        
+            }
+
+        }
+    
+    }
+
+}
+
