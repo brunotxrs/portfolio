@@ -2,11 +2,10 @@
     background: var(--black);
     width: 100%;
     height: 100vh;
-    padding: 0 1.25rem;
+    padding: 1.875rem  1.25rem 0 1.25rem;
     color: var(--white);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     row-gap: 1.25rem;
     position: relative;
 
@@ -26,106 +25,115 @@
         padding: 0.625rem 0;
     }
 
-    .skills {
-        height: 6.25rem;
+    .box-skills {
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        row-gap: 1.25rem;
 
-        p {
-            text-indent: 0.3125rem;
-            font-family: var(--ff-sans);
-            font-size: var(--fs-base);
-            font-weight: var(--fw-bold);
-            padding: 0.625rem 0;
-        }
-
-        ul {
-            height: 100%;
-            list-style: none;
+        .skills {
+            height: 12rem;
             display: flex;
-            flex-direction: row;
-            align-items: center;
+            flex-direction: column;
             justify-content: space-evenly;
-
-            li {
-                height: 100%;
-                width: 3.5rem;
-                border-radius: 0.125rem;
-                position: relative;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background: var(--liner-gradient);
-
-
-                span {
-                    display: flex;
-                    align-items: center;
-                    height: 3.125rem;
-                    width: 2.5rem;
-                    overflow: hidden;
-                
-
-                    .html, .css, .js, .react, .git, .github, .npm, .logic, .certificate {
-                        width: 100%;
-                        height: 100%;
-                        filter: drop-shadow(0 0 2px var(--black));
-                    }
-                    
-                    .html {
-                        color: #ff4500;
-                        
-                    }
-
-                    .css {
-                        color: #1572B6;
-                    }
-
-                    .js {
-                        color: #F7DF1E;
-                    }
-
-                    .react {
-                        color: #61DAFB;
-                    }
-
-                    .git {
-                        color: #F05032;
-                    }
-
-                    .github {
-                        color: #333333;
-                    }
-
-                    .npm {
-                        color: #CB3837;
-                    }
-
-                    .figma {
-                        width: 90%;
-                        height: 70%;
-                        color: #A259FF;
-                    }
-
-                    .logic {
-                        color: #007BFF;
-                    }
-
-                    .certificate {
-                        color: #FFD700;
-                    }
-                }
-
-                
-                
+    
+            p {
+                text-indent: 0.3125rem;
+                font-family: var(--ff-sans);
+                font-size: var(--fs-base);
+                font-weight: var(--fw-bold);
+                padding: 0.625rem 0;
             }
+    
+            ul {
+                height: 100%;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+    
+                li {
+                    width: 4.5rem;
+                    border-radius: 0.125rem;
+                    position: relative;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: var(--liner-gradient);
 
-            li:hover {
-                box-shadow: 0rem 0rem 0.625rem var(--purple-vibrant);
+    
+    
+                    span {
+                        display: flex;
+                        align-items: center;
+                        height: 6.125rem;
+                        width: 2.5rem;
+                        overflow: hidden;
+                    
+    
+                        .html, .css, .js, .react, .git, .github, .npm, .logic, .certificate {
+                            width: 100%;
+                            height: 100%;
+                            filter: drop-shadow(0 0 0.125rem var(--black));
+                        }
+                        
+                        .html {
+                            color: #ff4500;
+                            
+                        }
+    
+                        .css {
+                            color: #1572B6;
+                        }
+    
+                        .js {
+                            color: #F7DF1E;
+                        }
+    
+                        .react {
+                            color: #61DAFB;
+                        }
+    
+                        .git {
+                            color: #F05032;
+                        }
+    
+                        .github {
+                            color: #333333;
+                        }
+    
+                        .npm {
+                            color: #CB3837;
+                        }
+    
+                        .figma {
+                            width: 90%;
+                            height: 70%;
+                            color: #A259FF;
+                        }
+    
+                        .logic {
+                            color: #007BFF;
+                        }
+    
+                        .certificate {
+                            color: #FFD700;
+                        }
+                    }
+    
+                    
+                    
+                }
+    
+                li:hover {
+                    box-shadow: 0rem 0rem 0.625rem var(--purple-vibrant);
+                }
             }
         }
+
     }
 
     .overlay {
@@ -212,6 +220,10 @@
                     
                 }
 
+                button:focus {
+                    outline: none;
+                }
+
                 button:hover {
                     filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
                 }
@@ -268,7 +280,7 @@
                 cursor: pointer;
                 position: absolute;
                 left: calc(100vw - 3.5rem);
-                top: 0;
+                top: -1.25rem;
                 z-index: 1;
                 padding: 0 0 0.9375rem 0;
                 
@@ -283,7 +295,7 @@
             text-align: justify;
             align-items: center;
             width: 100%;
-            height: 100%;
+            height: 90%;
             font-family: var(--ff-sans);
             line-height: 1.2em;
             letter-spacing: 0.0313rem;
@@ -305,3 +317,197 @@
 
 }
 
+@media screen and (orientation: landscape) {
+    
+    .container-skills {
+        background: var(--black);
+        width: 100%;
+        height: 100vh;
+        padding: 1.25rem 1.25rem;
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        row-gap: 1.25rem;
+        position: relative;
+
+        h2 {
+            font-family: var(--ff-sans);
+            font-weight: var(--fw-bold);
+            font-size: var(--fs-2xl);
+            background-image: var(--liner-gradient-title); 
+            background-clip: text; 
+            color: transparent; 
+            filter: drop-shadow(0rem 0rem 0.0625rem var(--black));
+
+        }
+    
+        p:nth-child(2) {
+            font-family: var(--ff-sans);
+            font-size: var(--fs-sm);
+            padding: 0.625rem 0;
+
+        }
+
+        .box-skills {
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            row-gap: 1.25rem;
+
+            .skills {
+                width: 100vw;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                
+                p {
+                    text-indent: 0;
+                    text-align: center;
+                    font-family: var(--ff-sans);
+                    font-size: var(--fs-base);
+                    font-weight: var(--fw-bold);
+                    padding: 0.625rem 0;
+
+                }
+        
+                ul {
+                    height: 50%;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: initial;
+                    justify-content: flex-start;
+                    column-gap: 0.625rem;
+                    padding: 0 0.625rem;
+        
+                    li {
+                        height: 3.125rem;
+                        width: 3.5rem;
+                        
+        
+                        span {
+                            height: 3.125rem;
+                            width: 2.5rem;
+                            
+                        
+        
+                        }
+        
+                        
+                        
+                    }
+        
+                    
+                }
+            }
+
+        }
+    
+        .overlay {
+            
+            .certificados-lista {
+                height: 90vh;
+    
+                h3 {
+                    font-size: var(--fs-2xl);
+
+                }
+    
+                ul {
+                    
+                    li {
+                        font-size: var(--fs-base);
+                        
+                        span {
+                            padding: 0.125rem 0;
+                        }
+    
+                    }
+                }
+    
+                ul::-webkit-scrollbar{
+                    width: 0.3125rem;   
+                }
+    
+                ul::-webkit-scrollbar-track {
+                    background: transparent; 
+                }
+    
+                .btn {
+                    
+                    button {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        
+                    }
+
+                    button:focus {
+                        outline: none;
+                    }
+
+                    button:hover {
+                        filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
+                    }
+                }
+     
+            }
+    
+            .certificados-lista:hover {
+    
+                ul::-webkit-scrollbar-thumb {
+                    background: var(--purple-vibrant); 
+                    
+                }
+    
+            }
+            
+        }
+    
+        .box-details-certificate {
+            width: 100%;
+            height: 100vh;
+            
+            .certificado-detalhe {
+                width: 100%;
+                height: 100vh;
+
+            }
+    
+            .box-btn {
+        
+                .button {
+                    cursor: pointer;
+                    position: absolute;
+                    right: 0rem;
+                    top: -3.75rem;
+                    z-index: 1;
+                    padding: 0 0 0.9375rem 0;
+                    
+                }
+        
+            }
+    
+            .description {
+                height: 50%;
+    
+            }
+    
+            .titulo-certificado-detalhe {
+                font-family: var(--ff-sans);
+                font-weight: var(--fs-base);
+                text-align: center;
+                position: absolute;
+                top: 80vh;
+                width: 90%;
+            }
+    
+            
+        }
+    
+    }
+
+}
