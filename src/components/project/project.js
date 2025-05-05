@@ -22,7 +22,11 @@ function Project() {
             <div key={projeto.id} className="box-work" onClick={() => selecionarProjeto(projeto.id)}>
               <div className="work">
                 <p>{getTranslation(projeto.nome)}</p>
-                <img src={projeto.imagem} alt={projeto.nome} />
+
+                <div className="box-img">
+                  <img src={projeto.imagem} alt={projeto.nome} />
+                  
+                </div>
               </div>
             </div>
           ))}
