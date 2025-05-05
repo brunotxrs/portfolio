@@ -52,15 +52,13 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
-                gap: 0.625rem;
-                padding: 0.3125rem 0 0 0;
                 background: var(--black);    
                 border-radius: 0.3125rem;
                 overflow: hidden;
 
                 p {
                     text-align: center;
-                    height: 40px;
+                    height: 2.5rem;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
@@ -72,11 +70,21 @@
                     
                 }
 
-                img {
+                .box-img{
+
                     width: 12.5rem;
                     height: 100%;
                     border-radius: 0.125rem;
+
+                    img {
+                        width: 12.5rem;
+                        height: 100%;
+                        border-radius: 0.125rem;
+                    }
+
                 }
+
+                
 
                 
             }
@@ -216,3 +224,91 @@
 
 }
 
+
+@media screen and (orientation: landscape) {
+
+    .container-project {
+        justify-content: initial;
+        row-gap: 0;
+
+        .title {
+    
+            h2 {
+                font-size: var(--fs-2xl);
+            }
+        
+            p {
+                font-size: var(--fs-sm);    
+            }
+
+        }
+
+        .works {
+            height: 37.5rem;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            .box-work {
+                padding: 0;
+
+                .work {
+                    padding: 0;
+                    gap: 0;
+
+                    p {
+                        font-size: var(--fs-base);
+                        height: initial;
+                        padding: 0.625rem 0;
+                    
+                    }
+
+                    .box-img {
+                        overflow-y: scroll;
+                        overflow-x: hidden;
+                        
+                        img {
+                            border-radius: .125rem;
+                            height: 25rem;
+                            width: 12.5rem;
+                            
+                        }
+
+                    }
+
+                    .box-img::-webkit-scrollbar{
+                        width: 0.2125rem;
+                        
+                    }
+        
+                    .box-img::-webkit-scrollbar-track {
+                        background: transparent; 
+                    }
+        
+                    .box-img::-webkit-scrollbar-thumb:hover {
+                        background: #b3b3b3;
+                    }
+
+
+                }
+
+                .work:hover {
+
+                    .box-img::-webkit-scrollbar-thumb {
+                        background: var(--purple-vibrant);    
+                        
+                    }
+
+                }
+                
+
+            }
+
+        }
+
+        .paragraph {
+            font-size: var(--fs-sm);
+        }
+        
+    }
+
+}
