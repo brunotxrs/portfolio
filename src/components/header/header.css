@@ -427,3 +427,154 @@
 
 }
 
+
+@media screen and (min-width: 48rem) and (min-height: 64rem) { /*Tablet*/
+
+    .container-header {
+        width: 100%;
+        height: 100vh;
+        padding: initial;
+
+        .box-header {
+            display: flex;
+            flex-direction: row;
+            height: 18rem;
+            width: 100%;
+            padding: 0 2.625rem;
+            position: relative;
+
+            .titulo {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 1.875rem;
+                height: 100%;
+                width: 27.75rem;
+    
+                h1 {
+                    padding: 0 0;
+                    font-family: var(--ff-sans);
+                    
+                    span {
+                        font-size: var(--fs-base);
+    
+                    }
+    
+                }
+    
+                h2 {
+                    padding-bottom: 0;
+                    font-size: var(--fs-3xl);
+                    font-family: var(--ff-sans);
+                    
+                }
+    
+    
+            }
+    
+            .img {
+                height: 12.7rem;
+                width: 12.7rem;
+                position: absolute;
+                left: 60vw;
+                top: 2.5rem;
+                box-shadow: 0 0 0.625rem var(--purple-vibrant);
+                
+            
+                img {
+                    width: 19rem;
+                    height: 19rem;
+                    margin-top: -2.9rem;
+                    margin-left: -2.4rem;
+
+                }
+    
+            }
+    
+    
+        }
+    
+        .about {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            line-height: 135%;
+            font-size: var(--fs-base);
+            
+
+        }
+    
+        .link-social {
+            width: 100%;
+
+            .box-links {
+                width: 25rem;
+                
+                li {
+                    
+                    a {
+                        
+                        .github {
+                            width: 110%;
+                            height: 110%;
+                            
+                        }
+    
+                        .linkedin {
+                            width: 100%;
+                            height: 70%;
+                        }
+                    }
+    
+                }
+    
+                li:hover {
+                    filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
+                }
+    
+                li:focus {
+                    outline: none;
+                }
+    
+    
+            }
+            
+        }
+    
+        .navigation {
+            width: 100%;
+            height: 1.875rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: center;
+            
+            .box-links {
+                width: 25.875rem;
+            
+                
+                li {
+                    width: 40%;
+                    
+                    span {
+                        font-size: var(--fs-sm);
+                        
+                    }
+    
+                    span:hover {
+                        filter: drop-shadow(0 0 0.125rem var(--black)) ;
+                    }
+                    
+                }
+    
+                li:active {
+                    transform: translateY(0.125rem);
+                }
+        
+            }
+
+        }
+    
+    }
+
+}
