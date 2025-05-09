@@ -86,7 +86,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Certificado de aprendizado sobre ambientes de desenvolvimento HTML e CSS, organização de arquivos e a utilização de tags fundamentais. Adquiri este certificado durante a Imersão Front-End 2ª Edição, aprimorando minhas habilidades de desenvolvimento.",
                     en: "Certificate of learning about HTML and CSS development environments, file organization, and the use of fundamental tags. I acquired this certificate during the Front-End Immersion 2nd Edition, enhancing my development skills.",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFQ9xJjrKHctQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736366333965?e=1746216000&v=beta&t=7o7uLI1_fv84ZcG9qV1zDPPhz1LyQKA42QZwp5U1eOM"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/HTML%20e%20CSS%20-%20ambientes%20de%20desenvolvimento,%20estrutura%20de%20arquivos%20e%20tags.jpg?raw=true"
             },
             // {
             //     titulo: {
@@ -200,7 +200,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Certificado de aprendizado sobre ambientes de desenvolvimento HTML e CSS, organização de arquivos e a utilização de tags fundamentais. Adquiri este certificado durante a Imersão Front-End 2ª Edição, aprimorando minhas habilidades de desenvolvimento.",
                     en: "Certificate of learning about HTML and CSS development environments, file organization, and the use of fundamental tags. I acquired this certificate during the Front-End Immersion 2nd Edition, enhancing my development skills.",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFQ9xJjrKHctQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736366333965?e=1746216000&v=beta&t=7o7uLI1_fv84ZcG9qV1zDPPhz1LyQKA42QZwp5U1eOM"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/HTML%20e%20CSS%20-%20ambientes%20de%20desenvolvimento,%20estrutura%20de%20arquivos%20e%20tags.jpg?raw=true"
             },
             // {
             //     titulo: {
@@ -330,7 +330,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Curso introdutório aos conceitos e comandos básicos do Git e GitHub",
                     en: "Introductory course to the basic concepts and commands of Git and GitHub",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQFXIdtfqJuuTQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1734091214190?e=1746223200&v=beta&t=76osa5z-RiauFVN5p8ML8PoOBNoMtroSi6d8B0v2CIc"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/O%20basico%20de%20Git%20e%20GitHub.jpg?raw=true"
             },
             {
                 titulo: {
@@ -369,9 +369,26 @@ export function CertificadosProvider({ children }) {
         ],
         "Github":[
             {
-                titulo: "Lógica de programação: mergulhe em programação com JavaScript",
-                descricao: "Curso introdutório à lógica de programação utilizando a linguagem JavaScript como ferramenta prática.",
-                certificadoUrl: "https://assets.dio.me/45liwQdwOzzWsYlXnmlxnxyJyroLqKh0PGVFAC_r0dc/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9VSkZBRE9YUi5qcGc"
+                titulo: {
+                    pt: "Contribuindo em um Projeto Open Source no GitHub",
+                    en: "Contributing to an Open Source Project on GitHub",
+                },
+                descricao: {
+                    pt: "Curso prático sobre como contribuir em projetos de código aberto no GitHub. Adquiri este certificado durante o Curso de Formação Desenvolvedor Front-End, aprimorando minhas habilidades de desenvolvimento.",
+                    en: "Practical course on how to contribute to open source projects on GitHub. I acquired this certificate during the Front-End Developer Training Course, enhancing my development skills.",
+                },
+                certificadoUrl: "https://assets.dio.me/Ti3SiDycOUZLxQeeke_a7L-jJYDmvE5k5wAQVyzpJZ0/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9YTjFYRlpDSy5qcGc"
+            },
+            {
+                titulo: {
+                    pt: "GitHub Experiência prática",
+                    en: "GitHub Practical experience",
+                },
+                descricao: {
+                    pt: "Experiência prática em hospedar e gerenciar projetos, criar repositórios, utilizar ferramentas do GitHub (Issues, Pull Requests, Actions) e manipular repositórios remotos via terminal (Git e comandos 'gh').",
+                    en: "Practical experience in hosting and managing projects, creating repositories, using GitHub tools (Issues, Pull Requests, Actions), and manipulating remote repositories via terminal (Git and 'gh' commands).",
+                },
+                certificadoUrl: "https://th.bing.com/th/id/OIP.LH0z7LNsXmxMoap3PZDGeQHaER?rs=1&pid=ImgDetMain"
             }
         ],
         "npm":[
@@ -498,7 +515,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Curso introdutório à lógica de programação utilizando a linguagem JavaScript como ferramenta prática.",
                     en: "Introductory course to programming logic using JavaScript as a practical tool.",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGLQuvv2GzyuQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1731854058921?e=1746241200&v=beta&t=U-3bqPg-NpAbclGfm6_LVtJF3yxCw1XHoiEtChS71H0"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/logica%20de%20programa%C3%A7%C3%A3o-mergulhe%20em%20programa%C3%A7%C3%A3o%20com%20javascript.jpg?raw=true"
             }
         ],
         "Complementares":[
@@ -544,7 +561,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Introdução ao mundo da tecnologia e desenvolvimento de software, explorando o papel do desenvolvedor, conceitos da internet, frontend/backend, HTML, CSS, JavaScript e Git/GitHub para iniciar a jornada no desenvolvimento web.",
                     en: "Introduction to the world of technology and software development, exploring the role of the developer, internet concepts, frontend/backend, HTML, CSS, JavaScript, and Git/GitHub to start the web development journey.",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGC6gaMTVUWHg/profile-treasury-image-shrink_800_800/B4DZYcxdCNHAAc-/0/1744239449635?e=1746241200&v=beta&t=BiaY97Yz8qarsPR8kQJ53pyGZkLDwjIjcQruDisvouU"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/Discover.jpg?raw=true"
             },
             {
                 titulo: {
@@ -555,7 +572,7 @@ export function CertificadosProvider({ children }) {
                     pt: "Certificado de participação na Imersão Front-End, 2ª Edição.",
                     en: "Certificate of participation in the Front-End Immersion, 2nd Edition.",
                 },
-                certificadoUrl: "https://media.licdn.com/dms/image/v2/D4D2DAQGUuJR5TpF_Sw/profile-treasury-image-shrink_800_800/B4DZTwqIz.HYAc-/0/1739204366872?e=1746216000&v=beta&t=T0RHLXZg_cBxnKCBxF2vUWv5MEBIC8hQis-oVdZm5tw"
+                certificadoUrl: "https://github.com/brunotxrs/portfolio/blob/main/src/assets/img/cert/Imersao%20Front-end%20%202nd%20edi%C3%A7ao.jpg?raw=true"
             },
             {
                 titulo: {
