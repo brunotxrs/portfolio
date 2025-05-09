@@ -6,12 +6,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    row-gap: 2.25rem;
     padding: 0 .25rem;
     position: relative;
 
     .title {
-        height: 9.375rem;
+        height: 5.375rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
