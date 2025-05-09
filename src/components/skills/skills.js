@@ -52,7 +52,9 @@ function Skills() {
                         <p>{getTranslation('ferramentas')}</p>
                         <ul>
                             <li onClick={() => exibirCertificados("Git")}><span title="Git" aria-label="Git"><FontAwesomeIcon className="git" icon={faGitAlt} /></span></li>
-                            <li><span title="Github" aria-label="Github"><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
+                            
+                            <li onClick={() => exibirCertificados("Github")}><span title="Github" aria-label="Github"><FontAwesomeIcon className="github" icon={faGithub} /></span></li>
+                            
                             <li onClick={() => exibirCertificados("npm")}><span  title="npm" aria-label="npm"><FontAwesomeIcon className="npm" icon={faNpm} /></span></li>
                             <li onClick={() => exibirCertificados("Figma")}><span title="Figma" aria-label="Figma"><FontAwesomeIcon className="figma" icon={faFigma} /></span></li>
                         </ul>
