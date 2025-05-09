@@ -349,7 +349,7 @@
         }
     
         .about {
-            height: 6.25rem;
+            height: 20%;
             font-size: var(--fs-sm);
             padding: 0 .625rem;
             width: 55%;
@@ -360,9 +360,9 @@
             display: flex;
             justify-content: center;
             position: absolute;
-            left: 0;
-            top: 18.9375rem;
-            width: 21.875rem;
+            right: 0;
+            top: 14rem;
+            width: 22.5rem;
 
             .box-links {
                 width: 100%;
