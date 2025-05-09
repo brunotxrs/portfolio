@@ -285,23 +285,24 @@
 @media screen and (min-width: 41.6875rem) and (max-width: 61.9375rem) and (orientation: landscape) {
     
     .container-header {
-        width: 100%;
-        height: 100vh;
         align-items: flex-start;
-        padding: .625rem;
+        height: 100vh;
+        padding: 0.625rem 0 0;
+        width: 100%;
+        justify-content: initial;
 
         .box-header {
             height: 13rem;
             padding: 0 .625rem;
 
             .titulo {
+                align-items: flex-start;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-                row-gap: 1.875rem;
                 height: 100%;
-                width: 18.75rem;
+                justify-content: space-between;
+                row-gap: 1.875rem;
+                width: 22.75rem;
     
                 h1 {
                     padding: 0 0;
@@ -325,12 +326,13 @@
             }
     
             .img {
+                box-shadow: 0 0 .625rem var(--purple-vibrant);
                 height: 11rem;
-                width: 11rem;
                 position: absolute;
-                left: calc(100vw - 17.5rem);
+                right: 5.625rem;
                 top: 3rem;
-                box-shadow: 0 0 0.625rem var(--purple-vibrant);
+                width: 11rem;
+                left: initial;
                 
             
                 img {
@@ -347,19 +349,20 @@
         }
     
         .about {
-            width: 55%;
-            font-size: var(--fs-base);
+            height: 6.25rem;
+            font-size: var(--fs-sm);
             padding: 0 .625rem;
+            width: 55%;
 
         }
     
         .link-social {
-            width: 21.875rem;
-            position: absolute;
-            right: 0;
-            top: calc(100vh - 8.125rem);
             display: flex;
             justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 18.9375rem;
+            width: 21.875rem;
 
             .box-links {
                 width: 100%;
