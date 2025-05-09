@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { useLanguage } from '../../context/LanguageContext'
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import profile from "../../assets/img/profile-photo.svg"
 
 
 
@@ -35,7 +36,7 @@ function Header({ onProjectClick, onSkillsClick }) {
                         <h2>{getTranslation('desenvolvedorFrontEnd')}</h2>
                     </div>
                     <div className="img">
-                        <img src="https://raw.githubusercontent.com/brunotxrs/dev-links/d0021d8d8e5a663121f72bf62353a067a091eb8a/src/assets/img/avatar-light.svg" alt="imagem de Bruno Teixeira de Óculos" />
+                        <img src={profile} alt="imagem de Bruno Teixeira de Óculos" />
                     </div>
                 </div>
 
