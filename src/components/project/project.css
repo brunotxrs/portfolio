@@ -376,3 +376,53 @@
 
     }
 }
+
+
+@media screen and (min-width: 1024px) and (min-height: 550px) {/* Desktop */
+
+    .container-project {
+
+         .title {
+            height: 7.375rem;
+
+            h2 {
+                font-size: var(--fs-3xl);
+            }
+
+            p {
+                font-size: var(--fs-lg);
+            }
+
+        }
+
+        .works {
+            justify-content: space-evenly;
+        }
+
+        .project-details-overlay {
+            
+            .project-details { 
+                
+                h3 {
+                    font-size: var(--fs-3xl);
+                    
+                }
+                
+                p {
+                    font-size: var(--fs-lg);
+                    
+                }
+
+            }
+        
+        }
+
+        .paragraph {
+            font-size: var(--fs-base);
+            
+        }
+        
+
+    }
+    
+}

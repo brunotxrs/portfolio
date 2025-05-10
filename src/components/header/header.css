@@ -595,3 +595,173 @@
     }
 
 }
+
+@media screen and (min-width: 64rem) and (min-height: 34.375rem) 
+{ /* Desktop */
+    .container-header {
+        height: 100vh;
+        padding: initial;
+        width: 100%;
+        padding-bottom: 1.25rem;
+
+            
+        .box-header {
+            display: flex;
+            flex-direction: row;
+            height: 23rem;
+            padding: 0;
+            position: relative;
+            width: 100%;
+
+            
+
+            .titulo {
+                align-items: flex-start;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                row-gap: 1rem;
+                width: 38.4375rem;
+                justify-content: initial;
+                padding: 2.25rem 0;
+
+                h1 {
+                    font-family: var(--ff-sans);
+                    padding: 0 1.875rem;
+                    height: 6rem;
+                    font-size: var(--fs-2xl);
+                    
+                    span {
+                        font-size: var(--fs-lg);
+    
+                    }
+    
+                }
+    
+                h2 {
+                    font-family: var(--ff-sans);
+                    font-size: var(--fs-3xl);
+                    padding: 1.5625rem 0rem 1.5625rem 1.375rem;
+                    height: 11rem;
+                    line-height: 5rem;
+                    
+                }
+    
+    
+            }
+    
+            .img {
+                box-shadow: 0 0 .625rem var(--purple-vibrant);
+                height: 15rem;
+                left: 60vw;
+                position: absolute;
+                top: 4.5rem;
+                width: 15rem;
+                transform: rotate(-44deg);
+                
+            
+                img {
+                    height: 36rem;
+                    margin-left: -4rem;
+                    margin-top: -10rem;
+                    width: 24rem;
+                    transform: rotate(44deg);
+
+                }
+    
+            }
+    
+    
+        }
+    
+        .about {
+            align-items: center;
+            display: flex;
+            font-size: var(--fs-xl);
+            line-height: 135%;
+            width: 100%;
+            padding: 0 2.5rem 0 1.5625rem;
+            height: 8.125rem;
+            
+
+        }
+    
+        .link-social {
+            width: 100%;
+            padding-bottom: 3rem;
+
+            .box-links {
+                width: 70%;
+                height: 7rem;
+                
+                
+                li {
+                    height: 4rem; 
+                    width: 4rem;
+                    
+                    a {
+                        
+                        .github {
+                            width: 110%;
+                            height: 110%;
+                            
+                        }
+    
+                        .linkedin {
+                            width: 100%;
+                            height: 70%;
+                        }
+                    }
+    
+                }
+    
+                li:hover {
+                    filter: drop-shadow(0 0 0.25rem var(--purple-vibrant));
+                }
+    
+                li:focus {
+                    outline: none;
+                }
+    
+    
+            }
+            
+        }
+    
+        .navigation {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            height: 1.875rem;
+            justify-content: right;
+            width: 100%;
+            
+            .box-links {
+                width: 70%;
+            
+                
+                li {
+                    width: 18.75rem;
+                    height: 3rem;
+        
+                    span {
+                        font-size: var(--fs-lg);
+                        
+                    }
+    
+                    span:hover {
+                        filter: drop-shadow(0 0 0.125rem var(--black)) ;
+                    }
+                    
+                }
+    
+                li:active {
+                    transform: translateY(0.125rem);
+                }
+        
+            }
+
+        }
+    
+    }
+}
