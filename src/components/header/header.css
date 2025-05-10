@@ -431,7 +431,7 @@
 }
 
 
-@media screen and (min-width: 48rem) and (min-height: 64rem) { /*Tablet*/
+@media screen and (min-width: 48rem) and (min-height: 34.375rem) { /*Tablet*/
 
     .container-header {
         height: 100vh;
@@ -518,6 +518,7 @@
     
         .link-social {
             width: 100%;
+            padding-bottom: 1.25rem;
 
             .box-links {
                 width: 100%;
