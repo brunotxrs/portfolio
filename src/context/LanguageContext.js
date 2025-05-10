@@ -31,7 +31,7 @@ const translations = {
     'paragraph': 'Meu compromisso é entregar experiências web que inspirem e engajem.',
   },
   en: {
-    'euSou': 'I am',
+    'euSou': `I'm`,
     'desenvolvedorFrontEnd': 'Front-End Developer',
     'sobreMim': 'Front-End Developer with dedication to transforming ideas into impactful web experiences.',
     'projetos': 'Projects',
