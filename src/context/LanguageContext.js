@@ -29,6 +29,8 @@ const translations = {
     'PetLife': 'PetLife',
     'Travelgram': 'Travelgram',
     'paragraph': 'Meu compromisso é entregar experiências web que inspirem e engajem.',
+    'VerProjetoOnline': 'Ver Projeto Online',
+    'VerCodigoNoGitHub': 'Ver Código no GitHub',
   },
   en: {
     'euSou': `I'm`,
@@ -56,6 +58,8 @@ const translations = {
     'PetLife': 'PetLife',
     'Travelgram': 'Travelgram',
     'paragraph': 'My commitment is to deliver web experiences that inspire and engage.',
+    'VerProjetoOnline': 'View Online Project',
+    'VerCodigoNoGitHub': 'View code on GitHub',
   },
 };
 

@@ -29,9 +29,9 @@ function ProjectDetails() {
 
             <div className="project-links">
             {projeto.linkProjeto && (
-                <a href={projeto.linkProjeto} target="_blank" rel="noopener noreferrer" title='Ver Projeto Online' aria-label='Ver Projeto Online'><FontAwesomeIcon className='link' icon={faArrowUpRightFromSquare} /></a>
+                <a href={projeto.linkProjeto} target="_blank" rel="noopener noreferrer" title={getTranslation('VerProjetoOnline')} aria-label='Ver Projeto Online'><FontAwesomeIcon className='link' icon={faArrowUpRightFromSquare} /></a>
             )}
-            <a href={projeto.linkGithub} target="_blank" rel="noopener noreferrer" title='Ver Código no GitHub' aria-label='Ver Código no GitHub'><FontAwesomeIcon className='link' icon={faGithub} /></a>
+            <a href={projeto.linkGithub} target="_blank" rel="noopener noreferrer" title={getTranslation('VerCodigoNoGitHub')} aria-label='Ver Código no GitHub'><FontAwesomeIcon className='link' icon={faGithub} /></a>
             </div>
 
             <div className="btn">
