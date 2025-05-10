@@ -10,7 +10,7 @@
     position: relative;
 
     .title {
-        height: 5.375rem;
+        height: 5.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -47,7 +47,7 @@
             padding: 0.3125rem 0.125rem;
 
             .work {
-                height: 100%;
+                height: 25rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
@@ -223,14 +223,14 @@
 
 }
 
-
-@media screen and (orientation: landscape) {
+@media screen and (min-width: 41.6875rem) and (max-width: 61.9375rem) and  (orientation: landscape) {
 
     .container-project {
         justify-content: initial;
         row-gap: 0;
 
         .title {
+
     
             h2 {
                 font-size: var(--fs-2xl);
@@ -304,10 +304,75 @@
 
         }
 
+        .project-details-overlay {
+            
+            .project-details { 
+                
+                h3 {
+                    font-size: var(--fs-2xl);
+                    
+                }
+                
+
+                p {
+                    font-size: var(--fs-base);
+                    
+                }
+
+
+            }
+        
+        }
+
+
         .paragraph {
             font-size: var(--fs-sm);
         }
         
     }
 
+}
+
+@media screen and (min-width: 48rem) and (min-height: 34.375rem) {
+    .container-project {
+
+         .title {
+            height: 7.375rem;
+
+            h2 {
+                font-size: var(--fs-3xl);
+            }
+
+            p {
+                font-size: var(--fs-lg);
+            }
+
+        }
+
+
+        .project-details-overlay {
+            
+            .project-details { 
+                
+                h3 {
+                    font-size: var(--fs-3xl);
+                    
+                }
+                
+                p {
+                    font-size: var(--fs-lg);
+                    
+                }
+
+            }
+        
+        }
+
+        .paragraph {
+            font-size: var(--fs-2xl);
+            
+        }
+        
+
+    }
 }
