@@ -434,41 +434,46 @@
 @media screen and (min-width: 48rem) and (min-height: 64rem) { /*Tablet*/
 
     .container-header {
-        width: 100%;
         height: 100vh;
         padding: initial;
+        width: 100%;
 
         .box-header {
             display: flex;
             flex-direction: row;
-            height: 18rem;
-            width: 100%;
-            padding: 0 2.625rem;
+            height: 20rem;
+            padding: 0 0.625rem;
             position: relative;
+            width: 100%;
 
             .titulo {
+                align-items: flex-start;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                row-gap: 1.875rem;
                 height: 100%;
-                width: 27.75rem;
+                row-gap: 2.875rem;
+                width: 26.75rem;
+                justify-content: space-between;
     
                 h1 {
-                    padding: 0 0;
                     font-family: var(--ff-sans);
+                    padding: 0 1.875rem;
+                    height: 6rem;
+                    font-size: var(--fs-2xl);
                     
                     span {
-                        font-size: var(--fs-base);
+                        font-size: var(--fs-lg);
     
                     }
     
                 }
     
                 h2 {
-                    padding-bottom: 0;
-                    font-size: var(--fs-3xl);
                     font-family: var(--ff-sans);
+                    font-size: var(--fs-3xl);
+                    padding: 1.5625rem 0rem 1.5625rem 1.375rem;
+                    height: 11rem;
+                    line-height: 5rem;
                     
                 }
     
@@ -476,19 +481,21 @@
             }
     
             .img {
-                height: 12.7rem;
-                width: 12.7rem;
-                position: absolute;
+                box-shadow: 0 0 .625rem var(--purple-vibrant);
+                height: 15rem;
                 left: 60vw;
-                top: 2.5rem;
-                box-shadow: 0 0 0.625rem var(--purple-vibrant);
+                position: absolute;
+                top: 2.625rem;
+                width: 15rem;
+                transform: rotate(-44deg);
                 
             
                 img {
-                    width: 19rem;
-                    height: 19rem;
-                    margin-top: -2.9rem;
-                    margin-left: -2.4rem;
+                    height: 36rem;
+                    margin-left: -4rem;
+                    margin-top: -10rem;
+                    width: 24rem;
+                    transform: rotate(44deg);
 
                 }
     
@@ -498,11 +505,13 @@
         }
     
         .about {
-            display: flex;
             align-items: center;
-            width: 90%;
+            display: flex;
+            font-size: var(--fs-xl);
             line-height: 135%;
-            font-size: var(--fs-base);
+            width: 95%;
+            padding: 0 0 0 1.5625rem;
+            height: 8.125rem;
             
 
         }
@@ -511,9 +520,12 @@
             width: 100%;
 
             .box-links {
-                width: 25rem;
+                width: 100%;
+                height: 7rem;
                 
                 li {
+                    height: 4rem; 
+                    width: 4rem;
                     
                     a {
                         
@@ -545,22 +557,23 @@
         }
     
         .navigation {
-            width: 100%;
-            height: 1.875rem;
+            align-items: center;
             display: flex;
             flex-direction: row;
-            justify-content: right;
-            align-items: center;
+            height: 1.875rem;
+            justify-content: center;
+            width: 100%;
             
             .box-links {
-                width: 25.875rem;
+                width: 100%;
             
                 
                 li {
                     width: 40%;
+                    height: 3rem;
                     
                     span {
-                        font-size: var(--fs-sm);
+                        font-size: var(--fs-lg);
                         
                     }
     
