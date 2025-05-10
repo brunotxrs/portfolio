@@ -511,3 +511,61 @@
     }
 
 }
+
+@media screen and (min-width: 48rem) and (min-height: 34.375rem) { /*Tablet*/
+
+    .container-skills {
+
+        h2 {
+            font-size: var(--fs-3xl);
+        
+        }
+
+        p:nth-child(2) {
+            font-size: var(--fs-lg);
+        }
+
+        .box-skills {
+            height: 80vh;
+
+            .skills {
+                p {
+                    font-size: var(--fs-xl);
+                }
+
+
+                 ul {
+                    height: 20rem;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: self-start;
+                    justify-content: space-evenly;
+                    column-gap: 1rem;
+                    padding: 1.25rem;
+                   
+                    
+                    li {
+                        height: 7rem;
+                        width: 7rem;
+                        
+        
+                        span {
+                            height: 4rem;
+                            width: 5rem;
+                        
+                        }
+        
+                        
+                        
+                    }
+        
+                    
+                }
+            }
+        
+        }
+        
+    }
+}
